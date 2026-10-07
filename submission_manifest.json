@@ -6,28 +6,33 @@
   },
   {
     "path": ".gitignore",
-    "size": 1423,
-    "sha256": "7bc0e2dfc781e859d87e7027fdeecb379f0fffe88e373ff431830593a085aa38"
+    "size": 2946,
+    "sha256": "77243af68d6803a99aa75723b19ea45ca7b1abeeba30442a896bcc10fa5ba6d4"
   },
   {
     "path": "CODE_ORIGIN.md",
-    "size": 2165,
-    "sha256": "29ebdeee11f7b3611a712bc41c016ce21600c69e03c11f572de15e0cf5782e45"
+    "size": 1886,
+    "sha256": "02dba3667b0c78bba450c2ecf7cfff56a655cf1b270bcdd420aae5553f0e2615"
   },
   {
     "path": "DATA_ASSET.md",
-    "size": 1060,
-    "sha256": "7c4eb757510b2b95591569a69e56381f4625f6ac74345f71ad5b8399699046d9"
+    "size": 1165,
+    "sha256": "38b7b7caf43b43e22c4453cf85ab5ca15feb79fdae44c1b2275d255a065a5a77"
   },
   {
     "path": "README.md",
-    "size": 3609,
-    "sha256": "47ab4af97bed5736c3a921f78b134acf31641c48b7da5ec62605eb6c4ab4a39a"
+    "size": 4096,
+    "sha256": "33129b3727a0d76c34633ab5467c5baec4185632f0737579deded574dc9b8ecc"
   },
   {
     "path": "UPSTREAM_LICENSE.txt",
     "size": 34523,
     "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+  },
+  {
+    "path": "assets/yolov8n.pt",
+    "size": 6549796,
+    "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
   },
   {
     "path": "config.json",
@@ -65,19 +70,9 @@
     "sha256": "c5216d27a18246c59b9616cbcc8fb01033611fc3675212a184c4cbaad3162864"
   },
   {
-    "path": "docs/SUBMISSION.md",
-    "size": 719,
-    "sha256": "81d43ea67a35fe85c59c134a8c86d666da23b65b032ca842a1c895d6b70c1b77"
-  },
-  {
-    "path": "docs/TALK.md",
-    "size": 6896,
-    "sha256": "ea426623190b2e251ac2f874c4d14a9924afc82d1ee914024b17c50abc218ae7"
-  },
-  {
     "path": "docs/TEACHER_REQUIREMENTS.md",
-    "size": 715,
-    "sha256": "b3761e67dc856a7a56319b25ab5c62fee0af82f1e8ecb514e859e153798bdebb"
+    "size": 646,
+    "sha256": "9a447d20cb4a3283ee355eaae3d2836dc662bc82ab50ffe68c87c199d8b99fbd"
   },
   {
     "path": "docs/VALIDATION.md",
@@ -90,14 +85,9 @@
     "sha256": "7151671bbba4ea33242cda6671ee7b829fc1b1dfb9708ad735030cb59acccb9a"
   },
   {
-    "path": "docs/VALIDATION_FINAL.md",
-    "size": 1126,
-    "sha256": "ce9102fc926163633530eda8a9222d28b803917ba1c21dba0a36717097538bbb"
-  },
-  {
     "path": "docs/failures/03_真实失败分析.md",
-    "size": 3306,
-    "sha256": "8f4d16206ec0bd3169dfffd3d9f401d76cb6182f027eaf6c5d6a770f2674d73f"
+    "size": 2682,
+    "sha256": "180b414fd95184eb8d64b2cd031839f7d0be9b8f3f465ccc33fd9d2d689db8f2"
   },
   {
     "path": "docs/failures/failure_1_annotation.jpg",
@@ -1375,6 +1365,11 @@
     "sha256": "ca719117b1bb99567e5a815bd661187515adafecc1fbcca61ebb1003e9a52c81"
   },
   {
+    "path": "wildlife8/experiment1_inference_sizes/20261006_162734_758962/train_416/weights/best.pt",
+    "size": 6230308,
+    "sha256": "23680b71609ab9aba40b8485f1050668ea5b759223c740ea3e66109a198eec6f"
+  },
+  {
     "path": "wildlife8/experiment1_inference_sizes/20261006_162734_758962/实验对照.md",
     "size": 757,
     "sha256": "d53df4120742ed0cd77d058e2c22a42782ad7d275c661722e6575741810ecf2d"
@@ -1630,6 +1625,11 @@
     "sha256": "ca719117b1bb99567e5a815bd661187515adafecc1fbcca61ebb1003e9a52c81"
   },
   {
+    "path": "wildlife8/experiment2_training_sizes/20261006_165841_934483/train_416/weights/best.pt",
+    "size": 6230308,
+    "sha256": "8e85053b9f3835d1647e8af9669b64609ef2a1302f421e15abaa46d1e3b21a99"
+  },
+  {
     "path": "wildlife8/experiment2_training_sizes/20261006_165841_934483/train_640/BoxF1_curve.png",
     "size": 250326,
     "sha256": "f62f069c9740acb3da6439fca4efe12d5df60bc85e1c9d3646cca6ed16af3aa8"
@@ -1723,6 +1723,11 @@
     "path": "wildlife8/experiment2_training_sizes/20261006_165841_934483/train_640/val_batch2_pred.jpg",
     "size": 614315,
     "sha256": "03fc683d6055030a6aa69f079690a56072b308df698e4f3be23ab5f7cec5acdd"
+  },
+  {
+    "path": "wildlife8/experiment2_training_sizes/20261006_165841_934483/train_640/weights/best.pt",
+    "size": 6249700,
+    "sha256": "52b9fa46e8adb3d18aacc60f5385eda7d50f15f95f06e0ed234a9b0294c2f003"
   },
   {
     "path": "wildlife8/experiment2_training_sizes/20261006_165841_934483/实验对照.md",
@@ -2290,6 +2295,11 @@
     "sha256": "ca719117b1bb99567e5a815bd661187515adafecc1fbcca61ebb1003e9a52c81"
   },
   {
+    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed42/weights/best.pt",
+    "size": 6230372,
+    "sha256": "59525509de9b69cf01b1e930567d5f47448aa34e881fc82017de912d024fcc1f"
+  },
+  {
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed43/BoxF1_curve.png",
     "size": 257676,
     "sha256": "036c06a7e5c694462ec541844b4173e6c17948998d42a7e94a0f769ec6e09815"
@@ -2383,6 +2393,11 @@
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed43/val_batch2_pred.jpg",
     "size": 553721,
     "sha256": "75701e82c06d52eca0a9825bf4ae5f57696095c487463e46b026cdfca789c6db"
+  },
+  {
+    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed43/weights/best.pt",
+    "size": 6230372,
+    "sha256": "e29027ef90e00df2bc57560ed3d8717629142b2dfffa4329ff1a6840fb574d45"
   },
   {
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed42/BoxF1_curve.png",
@@ -2480,6 +2495,11 @@
     "sha256": "41dac10ef5abb26db13e12f1a7e41b2cf915f9de8e86fa4462af3f3ea08e57f5"
   },
   {
+    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed42/weights/best.pt",
+    "size": 6230436,
+    "sha256": "4f52ae2450c9a167b55193615a02037f95378f9eef787d867e6cc3fa5ae63d0c"
+  },
+  {
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/BoxF1_curve.png",
     "size": 266408,
     "sha256": "4e4d8b1575758cbfe75eb7bb1c2fad97523886e3d479ad873a0b48030905f712"
@@ -2573,6 +2593,11 @@
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/val_batch2_pred.jpg",
     "size": 552912,
     "sha256": "17170a0609a9f58a56db3547d5f9e8019a95f66c4b74552369075f198a2a072c"
+  },
+  {
+    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/weights/best.pt",
+    "size": 6230436,
+    "sha256": "c9ec57883a417b7146d9ff6fc3eb67bdb6e0111863e3de3f09c36f94c4efac4f"
   },
   {
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed42/BoxF1_curve.png",
@@ -2670,6 +2695,11 @@
     "sha256": "1714fcadcec515714e39d37c1b20b1b5764985cd1545993d8b7dd2b6176e3e15"
   },
   {
+    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed42/weights/best.pt",
+    "size": 6230436,
+    "sha256": "77347665c8a3f73f5a09421f91db94856191d424f1c49817ce3d5a284d3a707b"
+  },
+  {
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/BoxF1_curve.png",
     "size": 262602,
     "sha256": "038742a0f93d567f5b257cbc6e74637391978ac1ed5efab7bf46295d731d399f"
@@ -2763,6 +2793,11 @@
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/val_batch2_pred.jpg",
     "size": 552850,
     "sha256": "81340dd7b2b4046f37a8ed1c4efa3c701f975fcc8694a48f1aa28437984cdd66"
+  },
+  {
+    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/weights/best.pt",
+    "size": 6230436,
+    "sha256": "b885b33dfd76625ea5d1483221b212419915fc63cdaee8ab420eb530d7ca21ea"
   },
   {
     "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training_jobs/train_blur0_seed42/job.json",
@@ -17175,6 +17210,11 @@
     "sha256": "c2c892a6c085d6a93acf2407350ba186505d7c1c153a1e03a4709d04e8e0a8e9"
   },
   {
+    "path": "wildlife8/mosaic_experiments/20261006_180013_955548/off/train/weights/best.pt",
+    "size": 6230244,
+    "sha256": "914010f00fffc465927631695165ce3fc67d4655de08ab592101439f54ac9d28"
+  },
+  {
     "path": "wildlife8/mosaic_experiments/20261006_180013_955548/on/run_record.json",
     "size": 671,
     "sha256": "f779557920cde0df0433eaaeccf1c1b31f6c2c7c38e82e9858d21aed248ec0a2"
@@ -17398,6 +17438,11 @@
     "path": "wildlife8/mosaic_experiments/20261006_180013_955548/on/train/val_batch2_pred.jpg",
     "size": 553517,
     "sha256": "ca719117b1bb99567e5a815bd661187515adafecc1fbcca61ebb1003e9a52c81"
+  },
+  {
+    "path": "wildlife8/mosaic_experiments/20261006_180013_955548/on/train/weights/best.pt",
+    "size": 6230244,
+    "sha256": "62a3e152a778e02b9abb2fae633b45baf4d15da0c4a520154ce188837889dbef"
   },
   {
     "path": "wildlife8/mosaic_experiments/20261006_180013_955548/protocol.json",
@@ -18920,6 +18965,11 @@
     "sha256": "1714fcadcec515714e39d37c1b20b1b5764985cd1545993d8b7dd2b6176e3e15"
   },
   {
+    "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/augmented42/train/weights/best.pt",
+    "size": 6230372,
+    "sha256": "e0f5cce21e22897c035f2a6225fd1f5f482ea613219dbdc3d5e37456ccfa01c2"
+  },
+  {
     "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/augmented43/record.json",
     "size": 1392,
     "sha256": "fbecdd3e9e37cb79576ad5910e1aa704b159d600652f712e326c43e415e56fed"
@@ -19018,6 +19068,11 @@
     "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/augmented43/train/val_batch2_pred.jpg",
     "size": 552850,
     "sha256": "81340dd7b2b4046f37a8ed1c4efa3c701f975fcc8694a48f1aa28437984cdd66"
+  },
+  {
+    "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/augmented43/train/weights/best.pt",
+    "size": 6230372,
+    "sha256": "1f20febf8ba83c5465d581e61f144d7951411a84bbc6af2f4d2993f1f348d66f"
   },
   {
     "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/baseline43/record.json",
@@ -19120,6 +19175,11 @@
     "sha256": "75701e82c06d52eca0a9825bf4ae5f57696095c487463e46b026cdfca789c6db"
   },
   {
+    "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/baseline43/train/weights/best.pt",
+    "size": 6230308,
+    "sha256": "48f3a5b2851b00d0f1751d54a718af1657e1c23ae5d6c24b1484e57b4986e74e"
+  },
+  {
     "path": "wildlife8/robustness_rerun_20261006_210326_635336/transfer_summary.csv",
     "size": 491,
     "sha256": "3d7725e7fcc540b324f5e21a09342ad45c21695da89602c061b11f7189512ff6"
@@ -19131,8 +19191,8 @@
   },
   {
     "path": "wildlife8/robustness_rerun_20261006_210326_635336/实验报告.md",
-    "size": 7592,
-    "sha256": "2e94b6d0395fc6b25c176c7be75d6d78cfc9c18367b685eccce0b1930d451ced"
+    "size": 7351,
+    "sha256": "d251aa092f73afff06eac1b2afdf726c36eebd626d1f4864499cd6749a20f6a7"
   },
   {
     "path": "wildlife8/runs/test/BoxF1_curve.png",
@@ -19288,6 +19348,16 @@
     "path": "wildlife8/runs/train/val_batch2_pred.jpg",
     "size": 553517,
     "sha256": "ca719117b1bb99567e5a815bd661187515adafecc1fbcca61ebb1003e9a52c81"
+  },
+  {
+    "path": "wildlife8/runs/train/weights/best.pt",
+    "size": 6230180,
+    "sha256": "521e07d7b5ab8afdcae27235552f3dfd947e0f68259228f24226e6055d20397e"
+  },
+  {
+    "path": "wildlife8/runs/train/weights/last.pt",
+    "size": 6230180,
+    "sha256": "9655a1e88c87cb6163a77739ce301d44b6bf4a6b7a074a767872fdf494c0a4dc"
   },
   {
     "path": "wildlife8/selection.json",

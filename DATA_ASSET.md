@@ -13,3 +13,5 @@ python -X utf8 scripts/check_wildlife8.py --data-only
 
 数据来源与许可说明见 [CODE_ORIGIN.md](CODE_ORIGIN.md)，原图来源记录见 wildlife8/source_metadata.json。
 
+
+当前源码仓库已包含参考及五项正式实验的测试权重。仅预测自己的图片无需下载本附件；完整数据集评估或重新训练时才需要其中的数据。附件仍保留相同权重，导入器会校验并跳过已有相同文件。

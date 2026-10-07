@@ -52,3 +52,15 @@ $py = '.\.venv\Scripts\python.exe'
 测试集此前已查看，人工退化不代表全部真实环境；有限种子、数据来源差异、潜在漏标和预训练重叠限制了结论范围。
 
 上游实现：[Ultralytics](https://github.com/ultralytics/ultralytics)。网络、训练器、损失及标准AP评估来自上游，许可证见[UPSTREAM_LICENSE.txt](UPSTREAM_LICENSE.txt)。
+
+## 直接用已有权重测试（不需要重新训练）
+
+本仓库现在包含参考模型和五项正式实验的best.pt，以及初始预训练权重。安装依赖后，直接运行下列命令即可测试自己的图片，无需先导入完整数据集：
+
+```powershell
+python -X utf8 scripts/demo_wildlife8.py --weights wildlife8/runs/train/weights/best.pt --source '你的图片或图片文件夹路径' --imgsz 416
+```
+
+该命令使用GPU 0，保存检测图和counts.csv，输出位置以终端提示为准。替换--weights可测试其他正式实验的best.pt；640训练模型应使用--imgsz 640。各模型目录见experiments.json。
+
+若要重算完整测试集的mAP，仍需按DATA_ASSET.md下载并导入原图与标注；这也不需要重新训练。run.py的实验命令用于重新开展实验，不是单纯加载已有模型做预测。
