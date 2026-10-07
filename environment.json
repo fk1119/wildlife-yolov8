@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "torch": "2.5.1+cu121",
+  "ultralytics": "8.4.147",
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+}

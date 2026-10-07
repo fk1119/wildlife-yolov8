@@ -1,0 +1,10 @@
+{
+  "frozen_labels_verified": 2496,
+  "augmentation_severity_counts": {
+    "2": 292,
+    "0": 877,
+    "3": 292,
+    "1": 292
+  },
+  "source_manifest_sha256": "2fa6c7cbf957271447d8506f7ab6f251c1634cc14d1c5c9a2845e9425eafb0ed"
+}

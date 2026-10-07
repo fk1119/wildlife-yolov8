@@ -1,0 +1,58 @@
+{
+  "configuration": {
+    "paths": {
+      "data": "wildlife8/data",
+      "initial_weights": "assets/yolov8n.pt",
+      "output": "wildlife8",
+      "baseline_run": "wildlife8/runs/train"
+    },
+    "runtime": {
+      "device": 0,
+      "workers": 0
+    },
+    "training": {
+      "epochs": 30,
+      "batch": 8,
+      "seed": 42
+    },
+    "experiments": {
+      "inference_sizes": {
+        "sizes": [
+          416,
+          640
+        ]
+      },
+      "training_sizes": {
+        "sizes": [
+          416,
+          640
+        ]
+      },
+      "mosaic": {
+        "imgsz": 416
+      },
+      "blur_ratios": {
+        "imgsz": 416,
+        "seeds": [
+          42,
+          43
+        ]
+      },
+      "robustness": {
+        "epochs": 30,
+        "batch": 8,
+        "imgsz": 416,
+        "seeds": [
+          42,
+          43
+        ]
+      }
+    }
+  },
+  "resolved_paths": {
+    "data": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\data",
+    "initial_weights": "D:\\深度学习\\wildlife-yolov8\\assets\\yolov8n.pt",
+    "output": "D:\\深度学习\\wildlife-yolov8\\wildlife8",
+    "baseline_run": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\runs\\train"
+  }
+}

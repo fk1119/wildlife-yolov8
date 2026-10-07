@@ -1,0 +1,16 @@
+{
+  "created_at": "20261006_180013_955548",
+  "initial_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "dataset_manifest_sha256": "2fa6c7cbf957271447d8506f7ab6f251c1634cc14d1c5c9a2845e9425eafb0ed",
+  "shared_configuration": {
+    "check_only": false,
+    "epochs": 30,
+    "imgsz": 416,
+    "batch": 8,
+    "seed": 42
+  },
+  "conditions": {
+    "on": 1,
+    "off": 0
+  }
+}

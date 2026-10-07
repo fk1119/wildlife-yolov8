@@ -1,0 +1,118 @@
+{
+  "tag": "augmented42",
+  "split": "test",
+  "condition": "jpeg3",
+  "evaluated_at": "2026-10-06T22:49:37.002364",
+  "weights": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\robustness_rerun_20261006_210326_635336\\training\\augmented42\\train\\weights\\best.pt",
+  "weights_sha256": "e0f5cce21e22897c035f2a6225fd1f5f482ea613219dbdc3d5e37456ccfa01c2",
+  "evaluation_manifest_sha256": "8d6a0338d6e1d2345c70e766c7eaae9bc834dec5946d1d8655879801855f2dbf",
+  "metrics": {
+    "metrics/precision(B)": 0.7671275965930417,
+    "metrics/recall(B)": 0.6633186551643554,
+    "metrics/mAP50(B)": 0.7627837779439071,
+    "metrics/mAP50-95(B)": 0.5786688705777076,
+    "fitness": 0.5786688705777076
+  },
+  "per_class": [
+    {
+      "Class": "buffalo",
+      "Images": 46,
+      "Instances": 63,
+      "Box-P": 0.90017,
+      "Box-R": 0.79365,
+      "Box-F1": 0.84356,
+      "mAP50": 0.87977,
+      "mAP75": 0.81604,
+      "mAP50-95": 0.74236
+    },
+    {
+      "Class": "elephant",
+      "Images": 56,
+      "Instances": 96,
+      "Box-P": 0.68397,
+      "Box-R": 0.8125,
+      "Box-F1": 0.74272,
+      "mAP50": 0.82078,
+      "mAP75": 0.62709,
+      "mAP50-95": 0.56612
+    },
+    {
+      "Class": "rhino",
+      "Images": 49,
+      "Instances": 69,
+      "Box-P": 0.73355,
+      "Box-R": 0.83793,
+      "Box-F1": 0.78227,
+      "mAP50": 0.88868,
+      "mAP75": 0.87653,
+      "mAP50-95": 0.79066
+    },
+    {
+      "Class": "zebra",
+      "Images": 63,
+      "Instances": 127,
+      "Box-P": 0.70201,
+      "Box-R": 0.89764,
+      "Box-F1": 0.78786,
+      "mAP50": 0.89862,
+      "mAP75": 0.76162,
+      "mAP50-95": 0.66481
+    },
+    {
+      "Class": "bear",
+      "Images": 40,
+      "Instances": 59,
+      "Box-P": 0.71491,
+      "Box-R": 0.38265,
+      "Box-F1": 0.49849,
+      "mAP50": 0.55024,
+      "mAP75": 0.32721,
+      "mAP50-95": 0.31137
+    },
+    {
+      "Class": "giraffe",
+      "Images": 40,
+      "Instances": 71,
+      "Box-P": 0.6817,
+      "Box-R": 0.57746,
+      "Box-F1": 0.62527,
+      "mAP50": 0.6352,
+      "mAP75": 0.47753,
+      "mAP50-95": 0.4437
+    },
+    {
+      "Class": "lion",
+      "Images": 27,
+      "Instances": 29,
+      "Box-P": 0.87374,
+      "Box-R": 0.47753,
+      "Box-F1": 0.61755,
+      "mAP50": 0.76939,
+      "mAP75": 0.73457,
+      "mAP50-95": 0.59824
+    },
+    {
+      "Class": "deer",
+      "Images": 42,
+      "Instances": 63,
+      "Box-P": 0.84697,
+      "Box-R": 0.52719,
+      "Box-F1": 0.64987,
+      "mAP50": 0.6596,
+      "mAP75": 0.56024,
+      "mAP50-95": 0.51208
+    }
+  ],
+  "speed_ms": {
+    "preprocess": 1.117592499880023,
+    "inference": 13.935068611075016,
+    "loss": 0.008231666935090389,
+    "postprocess": 2.2317455556630095
+  },
+  "parameters": {
+    "imgsz": 416,
+    "batch": 1,
+    "conf": 0.001,
+    "nms_iou": 0.7
+  }
+}

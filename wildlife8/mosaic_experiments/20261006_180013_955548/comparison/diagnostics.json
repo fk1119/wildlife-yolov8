@@ -1,0 +1,58 @@
+{
+  "totals": {
+    "on": {
+      "tp": 509,
+      "fp": 127,
+      "fn": 68
+    },
+    "off": {
+      "tp": 519,
+      "fp": 139,
+      "fn": 58
+    }
+  },
+  "groups": {
+    "improved": 51,
+    "worse": 51,
+    "equal": 258
+  },
+  "extra_examples": [
+    [
+      "african_1 (376).jpg",
+      "improved"
+    ],
+    [
+      "coco_val2017_000000101780.jpg",
+      "improved"
+    ],
+    [
+      "coco_val2017_000000289393.jpg",
+      "improved"
+    ],
+    [
+      "african_4 (200).jpg",
+      "worse"
+    ],
+    [
+      "african_1 (373).jpg",
+      "worse"
+    ],
+    [
+      "african_2 (130).jpg",
+      "worse"
+    ],
+    [
+      "african_1 (121).jpg",
+      "equal"
+    ],
+    [
+      "african_1 (130).jpg",
+      "equal"
+    ],
+    [
+      "african_1 (131).jpg",
+      "equal"
+    ]
+  ],
+  "grouping": "FP+FN difference at fixed threshold; equal error counts do not imply identical boxes"
+}

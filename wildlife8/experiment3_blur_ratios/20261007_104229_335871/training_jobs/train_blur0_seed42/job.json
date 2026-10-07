@@ -1,0 +1,26 @@
+{
+  "initial": "D:\\深度学习\\wildlife-yolov8\\assets\\yolov8n.pt",
+  "training": {
+    "data": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\experiment3_blur_ratios\\20261007_104229_335871\\data\\train_blur0\\dataset.yaml",
+    "seed": 42,
+    "project": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\experiment3_blur_ratios\\20261007_104229_335871\\training",
+    "name": "train_blur0_seed42",
+    "epochs": 30,
+    "imgsz": 416,
+    "batch": 8,
+    "device": 0,
+    "workers": 0,
+    "deterministic": true,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "weight_decay": 0.0005,
+    "amp": false,
+    "cache": false,
+    "patience": 31,
+    "mosaic": 1.0,
+    "close_mosaic": 0,
+    "resume": false,
+    "plots": true,
+    "verbose": true
+  }
+}

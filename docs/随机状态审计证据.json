@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-07",
+  "framework": "ultralytics 8.4.147",
+  "root_cause": "lazy Events initialization consumes one Python RNG draw after seeding on first training only",
+  "probes": {
+    "repeat0": {
+      "after_init": {
+        "python": "a7f2d45690c305d3490361a875a47b5812b7a2d1bfff9c6df326162921c6cf06",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "5feb54a46230d321d888e9b43cf5a57492665f199e4377408d79ee460e36679c"
+      },
+      "after_model": {
+        "python": "a7f2d45690c305d3490361a875a47b5812b7a2d1bfff9c6df326162921c6cf06",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "329b4a8fbdd621a1448045c4830b2334ac553665e2d3c4df24547f0856af9757"
+      },
+      "initial_model": "cf5ece41370f5f348a42c2be4096f30ac42d9abf673bd6c6480768646ba93db5",
+      "after_setup": {
+        "python": "1b832fff99a132135fc6e5803fd3f3b57e17089fd09b8500962d0fbda7191005",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "329b4a8fbdd621a1448045c4830b2334ac553665e2d3c4df24547f0856af9757"
+      },
+      "batches": [
+        {
+          "files": [
+            "coco_train2017_000000224692.png",
+            "african_2 (156).png",
+            "african_2 (75).png",
+            "african_2 (104).png",
+            "african_2 (52).png",
+            "african_3 (212).png",
+            "african_3 (19).png",
+            "coco_train2017_000000454314.png"
+          ],
+          "image": "2183ff8590127aa5e31ec9f56c76d67b3f1a1895f9bb2cbfd345e6295072a982",
+          "labels": "a732fceb20ed87022c5bdb684a43dd6f9ab86caf659b848b69a7b225b5593eab"
+        },
+        {
+          "files": [
+            "coco_train2017_000000158494.png",
+            "african_2 (260).png",
+            "coco_train2017_000000295195.png",
+            "coco_train2017_000000297242.png",
+            "coco_train2017_000000399752.png",
+            "coco_train2017_000000302458.png",
+            "african_1 (217).png",
+            "coco_train2017_000000092009.png"
+          ],
+          "image": "3608cbc71163b95fb4ecabc2e3e9eaafc18594d2b28c2fb6fc4f81c49c80c0d7",
+          "labels": "e6ed0c6eecfb41e281a1b95f0b64b95cbb4567f28fe369ea44ce4209f265e203"
+        },
+        {
+          "files": [
+            "african_3 (278).png",
+            "african_4 (14).png",
+            "coco_train2017_000000303079.png",
+            "african_4 (51).png",
+            "african_1 (348).png",
+            "african_1 (116).png",
+            "african_2 (310).png",
+            "african_4 (208).png"
+          ],
+          "image": "11c297332b39bd925532ad33ec0f5b0806798bc6f1c01187e842fae98dd6441b",
+          "labels": "1634a51b3f8a72c46ca9d9837b66bdadca7b6a32e734ea8fecdfaf15661563b1"
+        }
+      ]
+    },
+    "repeat1": {
+      "after_init": {
+        "python": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "5feb54a46230d321d888e9b43cf5a57492665f199e4377408d79ee460e36679c"
+      },
+      "after_model": {
+        "python": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "329b4a8fbdd621a1448045c4830b2334ac553665e2d3c4df24547f0856af9757"
+      },
+      "initial_model": "cf5ece41370f5f348a42c2be4096f30ac42d9abf673bd6c6480768646ba93db5",
+      "after_setup": {
+        "python": "5a95ed2cba70676228396beb568f9055d0a3d1ae38a9f8e9473b37f8e07b4b1a",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "329b4a8fbdd621a1448045c4830b2334ac553665e2d3c4df24547f0856af9757"
+      },
+      "batches": [
+        {
+          "files": [
+            "coco_train2017_000000224692.png",
+            "african_2 (156).png",
+            "african_2 (75).png",
+            "african_2 (104).png",
+            "african_2 (52).png",
+            "african_3 (212).png",
+            "african_3 (19).png",
+            "coco_train2017_000000454314.png"
+          ],
+          "image": "28019b93797322e7c2c30127163b9066820e40a5cbd24ded3bb3693dbce367ff",
+          "labels": "520fe0ecc525a2674029740ab2ef5ec1aa67d9334b6f79a75b28fe8d53bf7b77"
+        },
+        {
+          "files": [
+            "coco_train2017_000000158494.png",
+            "african_2 (260).png",
+            "coco_train2017_000000295195.png",
+            "coco_train2017_000000297242.png",
+            "coco_train2017_000000399752.png",
+            "coco_train2017_000000302458.png",
+            "african_1 (217).png",
+            "coco_train2017_000000092009.png"
+          ],
+          "image": "cf9770e4d0d1aa7b2a684ebd279040f0a1116e69fb1bf9586a6a3773795353ef",
+          "labels": "85b99305600fff5e85c980e9888adbdf3621023bed044cb38ae4f26587acc54d"
+        },
+        {
+          "files": [
+            "african_3 (278).png",
+            "african_4 (14).png",
+            "coco_train2017_000000303079.png",
+            "african_4 (51).png",
+            "african_1 (348).png",
+            "african_1 (116).png",
+            "african_2 (310).png",
+            "african_4 (208).png"
+          ],
+          "image": "fa2747ee65aefb47e26e4ecdc61e2a673849bf226d5e214c86e1f7e2ff9716ea",
+          "labels": "697dba13ed19f91c1502b93bed1d856212edafa0efc1bdbc16c5960d9be3b3ca"
+        }
+      ]
+    },
+    "compensated0": {
+      "after_init": {
+        "python": "a7f2d45690c305d3490361a875a47b5812b7a2d1bfff9c6df326162921c6cf06",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "5feb54a46230d321d888e9b43cf5a57492665f199e4377408d79ee460e36679c"
+      },
+      "after_model": {
+        "python": "a7f2d45690c305d3490361a875a47b5812b7a2d1bfff9c6df326162921c6cf06",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "329b4a8fbdd621a1448045c4830b2334ac553665e2d3c4df24547f0856af9757"
+      },
+      "initial_model": "cf5ece41370f5f348a42c2be4096f30ac42d9abf673bd6c6480768646ba93db5",
+      "after_setup": {
+        "python": "1b832fff99a132135fc6e5803fd3f3b57e17089fd09b8500962d0fbda7191005",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "329b4a8fbdd621a1448045c4830b2334ac553665e2d3c4df24547f0856af9757"
+      },
+      "batches": [
+        {
+          "files": [
+            "coco_train2017_000000224692.png",
+            "african_2 (156).png",
+            "african_2 (75).png",
+            "african_2 (104).png",
+            "african_2 (52).png",
+            "african_3 (212).png",
+            "african_3 (19).png",
+            "coco_train2017_000000454314.png"
+          ],
+          "image": "2183ff8590127aa5e31ec9f56c76d67b3f1a1895f9bb2cbfd345e6295072a982",
+          "labels": "a732fceb20ed87022c5bdb684a43dd6f9ab86caf659b848b69a7b225b5593eab"
+        },
+        {
+          "files": [
+            "coco_train2017_000000158494.png",
+            "african_2 (260).png",
+            "coco_train2017_000000295195.png",
+            "coco_train2017_000000297242.png",
+            "coco_train2017_000000399752.png",
+            "coco_train2017_000000302458.png",
+            "african_1 (217).png",
+            "coco_train2017_000000092009.png"
+          ],
+          "image": "3608cbc71163b95fb4ecabc2e3e9eaafc18594d2b28c2fb6fc4f81c49c80c0d7",
+          "labels": "e6ed0c6eecfb41e281a1b95f0b64b95cbb4567f28fe369ea44ce4209f265e203"
+        },
+        {
+          "files": [
+            "african_3 (278).png",
+            "african_4 (14).png",
+            "coco_train2017_000000303079.png",
+            "african_4 (51).png",
+            "african_1 (348).png",
+            "african_1 (116).png",
+            "african_2 (310).png",
+            "african_4 (208).png"
+          ],
+          "image": "11c297332b39bd925532ad33ec0f5b0806798bc6f1c01187e842fae98dd6441b",
+          "labels": "1634a51b3f8a72c46ca9d9837b66bdadca7b6a32e734ea8fecdfaf15661563b1"
+        }
+      ]
+    },
+    "compensated1": {
+      "after_init": {
+        "python": "a7f2d45690c305d3490361a875a47b5812b7a2d1bfff9c6df326162921c6cf06",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "5feb54a46230d321d888e9b43cf5a57492665f199e4377408d79ee460e36679c"
+      },
+      "after_model": {
+        "python": "a7f2d45690c305d3490361a875a47b5812b7a2d1bfff9c6df326162921c6cf06",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "329b4a8fbdd621a1448045c4830b2334ac553665e2d3c4df24547f0856af9757"
+      },
+      "initial_model": "cf5ece41370f5f348a42c2be4096f30ac42d9abf673bd6c6480768646ba93db5",
+      "after_setup": {
+        "python": "1b832fff99a132135fc6e5803fd3f3b57e17089fd09b8500962d0fbda7191005",
+        "numpy": "c43a6610b0a61e1795039762b81bbfc1dfddb6f1b0b0a4138bb5ca17f23eb986",
+        "torch": "329b4a8fbdd621a1448045c4830b2334ac553665e2d3c4df24547f0856af9757"
+      },
+      "batches": [
+        {
+          "files": [
+            "coco_train2017_000000224692.png",
+            "african_2 (156).png",
+            "african_2 (75).png",
+            "african_2 (104).png",
+            "african_2 (52).png",
+            "african_3 (212).png",
+            "african_3 (19).png",
+            "coco_train2017_000000454314.png"
+          ],
+          "image": "2183ff8590127aa5e31ec9f56c76d67b3f1a1895f9bb2cbfd345e6295072a982",
+          "labels": "a732fceb20ed87022c5bdb684a43dd6f9ab86caf659b848b69a7b225b5593eab"
+        },
+        {
+          "files": [
+            "coco_train2017_000000158494.png",
+            "african_2 (260).png",
+            "coco_train2017_000000295195.png",
+            "coco_train2017_000000297242.png",
+            "coco_train2017_000000399752.png",
+            "coco_train2017_000000302458.png",
+            "african_1 (217).png",
+            "coco_train2017_000000092009.png"
+          ],
+          "image": "3608cbc71163b95fb4ecabc2e3e9eaafc18594d2b28c2fb6fc4f81c49c80c0d7",
+          "labels": "e6ed0c6eecfb41e281a1b95f0b64b95cbb4567f28fe369ea44ce4209f265e203"
+        },
+        {
+          "files": [
+            "african_3 (278).png",
+            "african_4 (14).png",
+            "coco_train2017_000000303079.png",
+            "african_4 (51).png",
+            "african_1 (348).png",
+            "african_1 (116).png",
+            "african_2 (310).png",
+            "african_4 (208).png"
+          ],
+          "image": "11c297332b39bd925532ad33ec0f5b0806798bc6f1c01187e842fae98dd6441b",
+          "labels": "1634a51b3f8a72c46ca9d9837b66bdadca7b6a32e734ea8fecdfaf15661563b1"
+        }
+      ]
+    }
+  },
+  "first_epoch": {
+    "reference": {
+      "epoch": "1",
+      "time": "66.6682",
+      "train/box_loss": "1.11797",
+      "train/cls_loss": "2.57933",
+      "train/dfl_loss": "1.2511",
+      "metrics/precision(B)": "0.40106",
+      "metrics/recall(B)": "0.43027",
+      "metrics/mAP50(B)": "0.42528",
+      "metrics/mAP50-95(B)": "0.29084",
+      "val/box_loss": "1.04316",
+      "val/cls_loss": "2.55853",
+      "val/dfl_loss": "1.26084",
+      "lr/pg0": "0.000331818",
+      "lr/pg1": "0.000331818",
+      "lr/pg2": "0.06715"
+    },
+    "isolated": {
+      "epoch": "1",
+      "time": "58.6365",
+      "train/box_loss": "1.11797",
+      "train/cls_loss": "2.57933",
+      "train/dfl_loss": "1.2511",
+      "metrics/precision(B)": "0.40106",
+      "metrics/recall(B)": "0.43027",
+      "metrics/mAP50(B)": "0.42528",
+      "metrics/mAP50-95(B)": "0.29084",
+      "val/box_loss": "1.04316",
+      "val/cls_loss": "2.55853",
+      "val/dfl_loss": "1.26084",
+      "lr/pg0": "0.000331818",
+      "lr/pg1": "0.000331818",
+      "lr/pg2": "0.06715"
+    },
+    "differences_excluding_time": {}
+  }
+}

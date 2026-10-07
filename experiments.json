@@ -1,0 +1,37 @@
+[
+  {
+    "id": "inference_sizes",
+    "name": "推理尺寸对照",
+    "status": "complete",
+    "directory": "wildlife8/experiment1_inference_sizes/20261006_162734_758962",
+    "evidence": "wildlife8/experiment1_inference_sizes/20261006_162734_758962/status.json"
+  },
+  {
+    "id": "training_sizes",
+    "name": "训练尺寸对照",
+    "status": "complete",
+    "directory": "wildlife8/experiment2_training_sizes/20261006_165841_934483",
+    "evidence": "wildlife8/experiment2_training_sizes/20261006_165841_934483/status.json"
+  },
+  {
+    "id": "mosaic",
+    "name": "Mosaic增强对照",
+    "status": "complete",
+    "directory": "wildlife8/mosaic_experiments/20261006_180013_955548",
+    "evidence": "wildlife8/mosaic_experiments/20261006_180013_955548/comparison/protocol.json"
+  },
+  {
+    "id": "robustness",
+    "name": "鲁棒性与模糊增强",
+    "status": "complete",
+    "directory": "wildlife8/robustness_rerun_20261006_210326_635336",
+    "evidence": "wildlife8/robustness_rerun_20261006_210326_635336/completion.json"
+  },
+  {
+    "id": "blur_ratios",
+    "name": "模糊比例对照",
+    "status": "complete",
+    "directory": "wildlife8/experiment3_blur_ratios/20261007_104229_335871",
+    "evidence": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/status.json"
+  }
+]

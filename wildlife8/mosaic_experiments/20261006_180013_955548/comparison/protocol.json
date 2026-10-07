@@ -1,0 +1,57 @@
+{
+  "runs": {
+    "on": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\mosaic_experiments\\20261006_180013_955548\\on",
+    "off": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\mosaic_experiments\\20261006_180013_955548\\off"
+  },
+  "parameter_differences": {
+    "project": [
+      "D:\\深度学习\\wildlife-yolov8\\wildlife8\\mosaic_experiments\\20261006_180013_955548\\on",
+      "D:\\深度学习\\wildlife-yolov8\\wildlife8\\mosaic_experiments\\20261006_180013_955548\\off"
+    ],
+    "save_dir": [
+      "D:\\深度学习\\wildlife-yolov8\\wildlife8\\mosaic_experiments\\20261006_180013_955548\\on\\train",
+      "D:\\深度学习\\wildlife-yolov8\\wildlife8\\mosaic_experiments\\20261006_180013_955548\\off\\train"
+    ],
+    "mosaic": [
+      1,
+      0
+    ]
+  },
+  "weights_sha256": {
+    "on": "62a3e152a778e02b9abb2fae633b45baf4d15da0c4a520154ce188837889dbef",
+    "off": "914010f00fffc465927631695165ce3fc67d4655de08ab592101439f54ac9d28"
+  },
+  "fixed_sample": [
+    "african_1 (121).jpg",
+    "african_1 (317).jpg",
+    "african_1 (257).jpg",
+    "african_2 (83).jpg",
+    "african_2 (71).jpg",
+    "african_2 (268).jpg",
+    "african_3 (46).jpg",
+    "african_3 (8).jpg",
+    "african_3 (228).jpg",
+    "african_4 (148).jpg",
+    "african_4 (294).jpg",
+    "african_4 (357).jpg",
+    "coco_val2017_000000307658.jpg",
+    "coco_val2017_000000203546.jpg",
+    "coco_val2017_000000110972.jpg",
+    "coco_val2017_000000344059.jpg",
+    "coco_val2017_000000212895.jpg",
+    "coco_val2017_000000259382.jpg",
+    "oi_test_697918b27c87dafb.jpg",
+    "oi_test_84ed8a69d32f711a.jpg",
+    "oi_test_03bacd7be83b721e.jpg",
+    "oi_test_3a8c775146aa69d2.jpg",
+    "oi_validation_a1149d6680d0c9b8.jpg",
+    "oi_test_8a60c9030d62458a.jpg"
+  ],
+  "sample_rule": "Before prediction: three unique images per class by salted filename SHA256 order.",
+  "imgsz": 416,
+  "confidence": 0.25,
+  "nms_iou": 0.7,
+  "diagnostic_matching": "confidence-ordered same-class greedy IoU>=0.5; not official AP",
+  "test_images": 360,
+  "caveat": "Previously inspected test set; one seed; diagnostic comparisons do not establish population generalization."
+}

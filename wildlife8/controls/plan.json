@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-09-29T21:47:29.802454",
+  "configs": {
+    "resolution640": {
+      "imgsz": 640,
+      "mosaic": 1.0
+    },
+    "no_mosaic416": {
+      "imgsz": 416,
+      "mosaic": 0.0
+    }
+  },
+  "baseline": "wildlife8/runs/train",
+  "epochs": 30,
+  "seed": 42,
+  "rule": "Fixed in advance. No hyperparameter search or selecting best test result. Each best checkpoint selected by validation fitness.",
+  "limitation": "Test set previously inspected. Supplementary comparisons, not a fresh untouched holdout. Baseline peak VRAM unavailable."
+}

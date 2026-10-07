@@ -1,0 +1,57 @@
+{
+  "runs": {
+    "on": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\my_runs\\20261005_191629_756271",
+    "off": "D:\\深度学习\\wildlife-yolov8\\wildlife8\\my_runs\\20261005_193212_441416"
+  },
+  "parameter_differences": {
+    "mosaic": [
+      1.0,
+      0.0
+    ],
+    "save_dir": [
+      "D:\\深度学习\\wildlife-yolov8\\wildlife8\\my_runs\\20261005_191629_756271\\train",
+      "D:\\深度学习\\wildlife-yolov8\\wildlife8\\my_runs\\20261005_193212_441416\\train"
+    ],
+    "project": [
+      "D:\\深度学习\\wildlife-yolov8\\wildlife8\\my_runs\\20261005_191629_756271",
+      "D:\\深度学习\\wildlife-yolov8\\wildlife8\\my_runs\\20261005_193212_441416"
+    ]
+  },
+  "weights_sha256": {
+    "on": "4a95f096e5caa52b2b95363e606acff7e4c50df0d4d9bec4ea5cb872a7650d65",
+    "off": "812bd4aa3d751a5485c2166c3b25c3c62a77aca822795b31ce9f8e6881a1cdca"
+  },
+  "fixed_sample": [
+    "african_1 (121).jpg",
+    "african_1 (317).jpg",
+    "african_1 (257).jpg",
+    "african_2 (83).jpg",
+    "african_2 (71).jpg",
+    "african_2 (268).jpg",
+    "african_3 (46).jpg",
+    "african_3 (8).jpg",
+    "african_3 (228).jpg",
+    "african_4 (148).jpg",
+    "african_4 (294).jpg",
+    "african_4 (357).jpg",
+    "coco_val2017_000000307658.jpg",
+    "coco_val2017_000000203546.jpg",
+    "coco_val2017_000000110972.jpg",
+    "coco_val2017_000000344059.jpg",
+    "coco_val2017_000000212895.jpg",
+    "coco_val2017_000000259382.jpg",
+    "oi_test_697918b27c87dafb.jpg",
+    "oi_test_84ed8a69d32f711a.jpg",
+    "oi_test_03bacd7be83b721e.jpg",
+    "oi_test_3a8c775146aa69d2.jpg",
+    "oi_validation_a1149d6680d0c9b8.jpg",
+    "oi_test_8a60c9030d62458a.jpg"
+  ],
+  "sample_rule": "Before prediction: three unique images per class by salted filename SHA256 order.",
+  "imgsz": 416,
+  "confidence": 0.25,
+  "nms_iou": 0.7,
+  "diagnostic_matching": "confidence-ordered same-class greedy IoU>=0.5; not official AP",
+  "test_images": 360,
+  "caveat": "Previously inspected test set; one seed; diagnostic comparisons do not establish population generalization."
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\深度学习\wildlife-yolov8\scripts\experiment3_blur_ratios.py", line 147, in run
+    train_cfg[ratio] = prepare_dataset(out / 'data' / f'train_blur{ratio}', 'train',
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\深度学习\wildlife-yolov8\scripts\experiment3_blur_ratios.py", line 76, in prepare_dataset
+    ok, encoded = cv2.imencode('.png', transformed, [cv2.IMWRITE_PNG_COMPRESSION, 1])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

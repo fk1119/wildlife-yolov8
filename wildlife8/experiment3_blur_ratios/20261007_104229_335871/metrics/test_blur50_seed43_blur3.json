@@ -1,0 +1,110 @@
+{
+  "ratio": 50,
+  "seed": 43,
+  "split": "test",
+  "condition": "blur3",
+  "weights_sha256": "b885b33dfd76625ea5d1483221b212419915fc63cdaee8ab420eb530d7ca21ea",
+  "metrics": {
+    "metrics/precision(B)": 0.8417942846640634,
+    "metrics/recall(B)": 0.7937555475670346,
+    "metrics/mAP50(B)": 0.8577214803057099,
+    "metrics/mAP50-95(B)": 0.6872724913528627,
+    "fitness": 0.6872724913528627
+  },
+  "per_class": [
+    {
+      "Class": "buffalo",
+      "Images": 46,
+      "Instances": 63,
+      "Box-P": 0.88774,
+      "Box-R": 0.92063,
+      "Box-F1": 0.90389,
+      "mAP50": 0.9304,
+      "mAP75": 0.90795,
+      "mAP50-95": 0.83206
+    },
+    {
+      "Class": "elephant",
+      "Images": 56,
+      "Instances": 96,
+      "Box-P": 0.83225,
+      "Box-R": 0.90625,
+      "Box-F1": 0.86767,
+      "mAP50": 0.92522,
+      "mAP75": 0.76665,
+      "mAP50-95": 0.70349
+    },
+    {
+      "Class": "rhino",
+      "Images": 49,
+      "Instances": 69,
+      "Box-P": 0.92173,
+      "Box-R": 0.88406,
+      "Box-F1": 0.9025,
+      "mAP50": 0.94881,
+      "mAP75": 0.94607,
+      "mAP50-95": 0.86392
+    },
+    {
+      "Class": "zebra",
+      "Images": 63,
+      "Instances": 127,
+      "Box-P": 0.89822,
+      "Box-R": 0.79528,
+      "Box-F1": 0.84362,
+      "mAP50": 0.90069,
+      "mAP75": 0.74438,
+      "mAP50-95": 0.66923
+    },
+    {
+      "Class": "bear",
+      "Images": 40,
+      "Instances": 59,
+      "Box-P": 0.78022,
+      "Box-R": 0.66187,
+      "Box-F1": 0.71618,
+      "mAP50": 0.76251,
+      "mAP75": 0.61625,
+      "mAP50-95": 0.55495
+    },
+    {
+      "Class": "giraffe",
+      "Images": 40,
+      "Instances": 71,
+      "Box-P": 0.80463,
+      "Box-R": 0.6338,
+      "Box-F1": 0.70907,
+      "mAP50": 0.74055,
+      "mAP75": 0.55328,
+      "mAP50-95": 0.52412
+    },
+    {
+      "Class": "lion",
+      "Images": 27,
+      "Instances": 29,
+      "Box-P": 0.79491,
+      "Box-R": 0.80213,
+      "Box-F1": 0.7985,
+      "mAP50": 0.84571,
+      "mAP75": 0.83835,
+      "mAP50-95": 0.72785
+    },
+    {
+      "Class": "deer",
+      "Images": 42,
+      "Instances": 63,
+      "Box-P": 0.81467,
+      "Box-R": 0.74603,
+      "Box-F1": 0.77884,
+      "mAP50": 0.80787,
+      "mAP75": 0.70051,
+      "mAP50-95": 0.62255
+    }
+  ],
+  "speed_ms": {
+    "preprocess": 0.7791102776132498,
+    "inference": 13.194748055684613,
+    "loss": 0.009787499301536527,
+    "postprocess": 2.1329433330619296
+  }
+}

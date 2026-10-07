@@ -1,0 +1,118 @@
+{
+  "split": "test",
+  "imgsz": 640,
+  "metrics": {
+    "metrics/precision(B)": 0.9228547224259045,
+    "metrics/recall(B)": 0.853113134094974,
+    "metrics/mAP50(B)": 0.9179778053807759,
+    "metrics/mAP50-95(B)": 0.7439402878078317,
+    "fitness": 0.7439402878078317
+  },
+  "per_class": [
+    {
+      "Class": "buffalo",
+      "Images": 46,
+      "Instances": 63,
+      "Box-P": 0.9659,
+      "Box-R": 0.89919,
+      "Box-F1": 0.93135,
+      "mAP50": 0.9554,
+      "mAP75": 0.93322,
+      "mAP50-95": 0.85477
+    },
+    {
+      "Class": "elephant",
+      "Images": 56,
+      "Instances": 96,
+      "Box-P": 0.90267,
+      "Box-R": 0.96614,
+      "Box-F1": 0.93333,
+      "mAP50": 0.97776,
+      "mAP75": 0.91834,
+      "mAP50-95": 0.78263
+    },
+    {
+      "Class": "rhino",
+      "Images": 49,
+      "Instances": 69,
+      "Box-P": 0.97511,
+      "Box-R": 0.94203,
+      "Box-F1": 0.95828,
+      "mAP50": 0.99199,
+      "mAP75": 0.99199,
+      "mAP50-95": 0.89645
+    },
+    {
+      "Class": "zebra",
+      "Images": 63,
+      "Instances": 127,
+      "Box-P": 0.92924,
+      "Box-R": 0.92913,
+      "Box-F1": 0.92919,
+      "mAP50": 0.96016,
+      "mAP75": 0.8758,
+      "mAP50-95": 0.77331
+    },
+    {
+      "Class": "bear",
+      "Images": 40,
+      "Instances": 59,
+      "Box-P": 0.86127,
+      "Box-R": 0.77966,
+      "Box-F1": 0.81844,
+      "mAP50": 0.84529,
+      "mAP75": 0.71677,
+      "mAP50-95": 0.6206
+    },
+    {
+      "Class": "giraffe",
+      "Images": 40,
+      "Instances": 71,
+      "Box-P": 0.90829,
+      "Box-R": 0.73239,
+      "Box-F1": 0.81091,
+      "mAP50": 0.83962,
+      "mAP75": 0.69462,
+      "mAP50-95": 0.62435
+    },
+    {
+      "Class": "lion",
+      "Images": 27,
+      "Instances": 29,
+      "Box-P": 0.95321,
+      "Box-R": 0.82759,
+      "Box-F1": 0.88597,
+      "mAP50": 0.9073,
+      "mAP75": 0.82553,
+      "mAP50-95": 0.70771
+    },
+    {
+      "Class": "deer",
+      "Images": 42,
+      "Instances": 63,
+      "Box-P": 0.88715,
+      "Box-R": 0.74877,
+      "Box-F1": 0.81211,
+      "mAP50": 0.8663,
+      "mAP75": 0.74711,
+      "mAP50-95": 0.6917
+    }
+  ],
+  "speed_ms": {
+    "preprocess": 0.8514897222287093,
+    "inference": 18.551055833337514,
+    "loss": 0.009737222225365057,
+    "postprocess": 2.228163055555241
+  },
+  "classes": {
+    "0": "buffalo",
+    "1": "elephant",
+    "2": "rhino",
+    "3": "zebra",
+    "4": "bear",
+    "5": "giraffe",
+    "6": "lion",
+    "7": "deer"
+  },
+  "note": "Single seed, frozen course subset. Test already inspected before supplementary experiments."
+}

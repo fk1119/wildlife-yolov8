@@ -1,0 +1,9 @@
+{
+  "selected_ratio": 50,
+  "scores": {
+    "0": 0.7036628043413113,
+    "25": 0.7312855544064455,
+    "50": 0.7347664228728397
+  },
+  "rule": "Equal weight clean AP and three-level average blur AP; then mean over seeds."
+}

@@ -1,0 +1,2289 @@
+{
+  "classes": [
+    "buffalo",
+    "elephant",
+    "rhino",
+    "zebra",
+    "bear",
+    "giraffe",
+    "lion",
+    "deer"
+  ],
+  "openimages_available": {
+    "lion": 173,
+    "deer": 368
+  },
+  "rule": "For Lion and Deer separately: sorted IDs, Random(800+class_id), cap 280 images, floor 70% train and 15% val, remainder test. Custom repartition of the official Open Images validation and test pools, not the official benchmark.",
+  "openimages": [
+    {
+      "origin": "test",
+      "image_id": "0149d723dbc0d724",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "01f4cc5cfa62d24b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "01f716abef7d48d8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "023bc52e922f1e59",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "0285b398989179c8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "028a54e267896f86",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "034aead27997f437",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "03b9630d0ba5749d",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "03bacd7be83b721e",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "06e9b526a94fb4ef",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "07143d7419d29618",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "0750aa13589cc582",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "08b6978e96007bfe",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "08d4cd01e1b143b0",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "08e3bd71231faa7c",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "0a21d120f742b1b9",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "0abe5e4f09bc1262",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "0aca09fcae7d6e3a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "0bd02d42723adee8",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "0c13fc8f316fbf64",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "0e3f0b59d2923062",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "0fb728cd2b86cb10",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "1010bb022e9aab9f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "1283d6e75bfd105c",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "12a9209cfc98dfcb",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "12e362a481f36ae8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "12eb63614ce289c8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "13226f111302a199",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "13a20ad01d6fe88a",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "14dba23948cf4ecd",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "15995ad37d077a54",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "16a47ce33f379f2b",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "1732c35c867514a3",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "180b2e9e339d9ea5",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "1cdf54e23522721f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "1ebb36368847d8c9",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "1efde74ff07fbbc7",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "2023dccbd068364b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "209a730031941da7",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "21b0a18099394d3f",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "21dfe5721a39e647",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "22cfc26b35c5a7f0",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "243c050445de9211",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2455b8585d5bf0d9",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "25255877f6414d18",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2618ee6f2c570a14",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2714b054d4e7d4ed",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "2732237e2db1b12e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2759665ea086956a",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "27eea2d0cf6618aa",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "29910133de9c9f32",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2a43729d236705a9",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2b42f3325e3be31b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2b4b9c13aa0667f3",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2c7111fb07c12cdd",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "2cfa96e7470090d2",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2e7636f4a945129e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "2f2c0984cb427e81",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "2fc33f14c91f74d7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "30fad0268a3f6904",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "31931b6dd2df4674",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "31d2f5f31a8437d8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "320320e0a5ae5375",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "3259ead2f4e02ba2",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "32d702245b1a55bf",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "33170329293996cd",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "336702fb2c1cae40",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "337493e0c3c50851",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "3452ab13dfd7cd45",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "35237ed36377a07c",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "36dd17cc2ed734da",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "37968c5f1b3ac4fa",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "37a50d548ba9fd34",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "37c12f23d4c2e39e",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "384c86c0147ceeb2",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "3a8c775146aa69d2",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "3ba82ffbfae577a2",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "3bb7558c430c06de",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "3cd87292fc5757dc",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "3df97fcb497b94c1",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "3ee762433e1b04c7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "3f02ecf7bd884f07",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "43bfef2d2f3e7b33",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "450f18ba8939e75d",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "463bfa82e03e540a",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "48cf0a097ce330dc",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "4901de647a9edcc6",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "4908c03eabfb5a87",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "498ec7d07f110bec",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "4a51f8dd244cd303",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "4b356e74c4f14ef8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "4c71effe6d86dbaa",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "4d3aa7c1cd37b885",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "4d51b08a4f17a99e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "4d9cc067a8cac70d",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "4d9d873f1d080e6a",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "4ff9f0b5f553f590",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "5069d2a610a2081c",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "51b1d473e22baa22",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "5225b32b33050be6",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "54eb04cc46cf8d07",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "54fd0a4958cbc9f8",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "562041e1bc3954e2",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "57370d36110080f6",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "573ca1d8f41e1307",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "575c2d8285951d39",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "576349a03b599011",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "596bb1c22329af50",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "5a039f9a4b857dca",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "5a4b92dc3ff7bdf0",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "5a903ce8f3f67a64",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "5aeb28b17bba5439",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "5b0f31f4ad6ec73a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "5b5f00121eee9ede",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "5bebc7c1a8067ff0",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "5d20e4852612dc04",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "5e597a94068bab6b",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "5f09d936ad31c033",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "61a36fc12779b82f",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "61f9e2ac8b438a2f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "6392bc2e9e0bbcb3",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "63eea08ae3c49842",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "6431d2d7d77fccfe",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "6578d0d608cd727b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "65908c420fbe425b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "65e6961ee0b0fe0d",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "66374c55b2d469ae",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "67fc0102dfa1de8e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "6822e543aeb43db8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "697918b27c87dafb",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "6b924071972ea76f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "6c96edbec39a2840",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "6d491fd917b1fd5b",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "6db1af4c4d94aa1f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "6ef20d09b3cfff60",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "6fbade8abbd91778",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "700e3413c0265494",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "701c911cea93ce43",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "70390090cc6aee0b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "715e4213a3d83b74",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "719d511b89435268",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "71bd2652a4100c27",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7225c5ecfacb89e8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "72ccdad1db761d19",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "73ce17ddf3e362ff",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "73e2ddabd76d5ed5",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "766f6f9bb71a4d75",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7779d8c1651d7818",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "77e57925ee37175a",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "788d8ef42e204654",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7890df47b3257865",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "78bc277af198725e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "790d577e86472468",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7a469085395ff0ea",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "7af8f80ac971b0c8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7b8c61750337f348",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7bd23f712f3b50eb",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "7c9c6198e937150a",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "7d2fa667bc6a1d22",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "7d5eeafbdac5e549",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7d8db5ea59d8d5a7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7dcdc12fdf281ac5",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7e4f3f30c4a81edd",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7e7c478ee979f3c2",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "7ea8358743c2ec01",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "7fbdfa7a631ab80a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "802180c1f5bc5a28",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "804cc341c5c3be04",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "80a495009b7aa768",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "80e74f8b4bb47729",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8107b7dc694df8d0",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "81b2918c96e822f0",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "82c8910a52fff476",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "82d662ed8a3f22f6",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "844784e2a7344b19",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "849fe9bed149a220",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "84b473491eee4048",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "84ed8a69d32f711a",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "8518685e18c575cb",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "851c43ad70d10f45",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "85603d09cc299fc5",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8627d3bebd8ee41a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "865488de23ab9603",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "86615394c4e091b4",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "86d61d5206c3fdfc",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "86e2d4f4d5298c03",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "8773b9b5c5155bec",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8804765f4ac2256f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "89814cd6bfc7d5b3",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8a60c9030d62458a",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "8a9c0d8ecc5d6a02",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8c2a6d737c97ed1a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8c685a0be59217e4",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8cdaa894cd78f9ea",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8db3fc5215a9c843",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8dbf510ae9a2f3f7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8e4ca713322023fb",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "8ef80eccf3b849ec",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "900092a93d030a2a",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "90d15aed15379eb3",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "920355d606b43715",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "9222cd3b1f4dd738",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "967113692660ac1e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9671914fbdb3a4b5",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "96bcc3299767c893",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "96dc9b2ceb318389",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "98395592d014cd4b",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "9889b253201d5d77",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "9a35ba3a8f0441dc",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9af73810a54cc562",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9b14501a6b0ca826",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9b4b421bd3eaf87e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9b56172ebd14ee92",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "9b93a5524f998808",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9bc89e515c78c6c7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9c9f2ddd776ff540",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9eb8c00476b11c89",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9eddca00ad17d67d",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "9fbac609d6a760d7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "a2207801061c4278",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "a272513c7358ca7d",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "a27a4f2aa277ff52",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "a34d708f38bd9e9d",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "a362e4ae92f24b8b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "a535bdfae719bd80",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "a650ae14f4be40d9",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "a6c716e30eefa99e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "a70eaa511819c27f",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "a7bd1c948a850e4a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "a9b100339d015330",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "a9baa6267801ca2a",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "aa8fecf00c40efc2",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "aaef4f494c48d67a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "ac5a4420790e24de",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "ac70aba7248501c0",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "ae194ca49544ee9b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "ae4e8f5fd5a16ac6",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "ae75658062c0bb2a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "af5d142d8c892bd8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "b005427b03fd1811",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "b12e88cb93dbf233",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "b23541c2fc27aa34",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "b37038104e0bfb48",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "b3b9cce568451510",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "b431c3e8cdc7f00a",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "b599de15942b666f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "b5a42457e4eb2ea7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "b73d8cc876ad92cc",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "b7caf5199a3c4f13",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "b834999c2960adef",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "bba443efc42d285e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "bbef8a90b2da2ad8",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "bd18d41af969b93f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "bd571b4371556fcc",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "be509c7aa2683076",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "be77eecbe69e033e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "bf3f6dcd07c13522",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "bf565b452aa53e89",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "bfe2286288d13030",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "bff915d725ae93c1",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c03a1028729a8395",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c105ca860e9240fc",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c1255f02a11449e2",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "c17839ba4953d574",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "c18553fa1677e289",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c24ae0da6b36db2b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c27dcf5ffc4542bf",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c2d9645a77c2a29a",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "c47eda2eb01b31b3",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c4886da45c299351",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c822b0d1080ea2c5",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "c9c63353c903a412",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "c9d06bc28fe76904",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "cb87c442bc98ae09",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "cbf99ba3b8f6dc0d",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "cce5520e235a8332",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "cd2cf1beacb531b1",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "ce41c371cb1b73ef",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "d007975d2ac54453",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "d030fac2d777096d",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "d40cee61c21a1e63",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "d44055b2636d2217",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "d4a1cf7fcfd20b52",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "d6636c181f01092f",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "d84394ff2a5e91f7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "d8ec3c82431b8603",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "d92c44708be13a60",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "da2a63b11593e890",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "da7899bdbce7ddaa",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "da9e5cc2a27948ba",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "db41f2ea1e3c4d64",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "dc41eec0f04575a7",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "dcecd69dde722d89",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "dd60060f6ec97b85",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "de9b8a28d013da76",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e19a09dcb5778fe7",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "e1a409e586816608",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e202ce444d73f334",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e26732c32a8d0a7c",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "e276662fa93e2c61",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e356146c5ac57de5",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "e3675b7c2c057b11",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e3da4fede18e5daa",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e402cf9d4dd090d5",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e44f3a7c4c9abc17",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e496f934ed2c4a7e",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "e4bbba6a606610c1",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e4fb51ab30337ade",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e677b9fbbe0897a4",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e73188a53fcd9627",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e862ebe0d3e3e8b3",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "e9f9b6258df3cbf3",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "ea788970a9fb822c",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "eaf5b1bc2d30e3f2",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "eb68206b9abf2c9d",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "ec24d0644fdbb067",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "ed69d84a8b2cf6a3",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "edd9475187c6225e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "efc7103a59f8b2d0",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f043303ae469bf1b",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f2fb8071451b6e2d",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f33fce8cce61546f",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "f4ed5ce2fd015cfe",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f5ee4d9bb98fae0f",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f6a16ea6d11fe582",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "f700eefef47341de",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f73679d797ac75a8",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "f7675857876745bb",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f7704c870d359f3d",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f7fedc553fce21a5",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f8758368805e7b94",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f8d29032cab6658c",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f91abb11d7102ec1",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "f960ed9faebc8ffa",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "fa34e353d3d221d5",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "fab36764e5949652",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "fb653d0bb921bb0d",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "fb8c2a6d30a23d0d",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "fbcc052b0bef4381",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "fbd3418c9bd11e05",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "fbea7c85b5d9b3d1",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "fc54a20fe216d3b2",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "fd2b02b4c614454a",
+      "split": "val"
+    },
+    {
+      "origin": "test",
+      "image_id": "fdae04691118eecb",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "fdc35934de92309b",
+      "split": "test"
+    },
+    {
+      "origin": "test",
+      "image_id": "fdd2bfdad22bb65e",
+      "split": "train"
+    },
+    {
+      "origin": "test",
+      "image_id": "fef584f81617b821",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "00c73a28068f9b33",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "01408d986127ece3",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "067eb13172088c35",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "093fe1cde0ec8eff",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "0a1a999ef52a93f2",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "0d530e8262d079da",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "1049441c01fb5b7e",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "109a54696d338b59",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "14819cb5d28b8f94",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "152512b00e390e03",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "1c542b393bbcbdfc",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "1f0f066d2deceee6",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "20f92f44dbd0bc31",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "213f288961076bfc",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "214e501ba5b8087e",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "23dc92a81404478c",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "244cbde106f76ae3",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "28d48b59955eb0f7",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "292bf6e745d92fea",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "2db10d9bca188e72",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "2ea0f1369e41c80d",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "36af0efeb0664209",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "3afc07c5faf44cea",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "413ecf122fe13dfb",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "4634962c3db4e309",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "48445b96f74cb594",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "49c11610e8b1cf14",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "4d90bf7713c05800",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "4e5ecd801bd6dd1d",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "4e7fc72e98ae9e53",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "5088db320f662d3b",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "50dcbf10ed88a574",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "50ff8448a2872f3d",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "5295567b2c37f306",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "5439d82bed246a94",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "55bb08642e9072b1",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "55fc45fc60419cde",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "5840342ea42d2151",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "5df42986952af22c",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "63283b1f84fb759e",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "6aa2ed31bc03ef78",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "6b574f783c9da5bd",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "6bf46e7613f06ed8",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "6d00d8fec91697a8",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "719c8ed332ce9757",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "7466e622ed878695",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "74be96d43fe46544",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "74d9b2ee596bd60c",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "77e46fccb8c07d30",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "78a98dcc91cace3b",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "794c784e81c52454",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "7a2664d4cf2f6b2c",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "7a94abd30995ee4c",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "7b3a1a40553fb327",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "7c784b253e93c484",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "7e6b70d191f6b3aa",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "7f9c1f2106461ee8",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "88b9d0311b37e132",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "89fd6f9511893ce3",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "8ca7f16e5705a73e",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "8e7280246803a2fa",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "8e962161f302e386",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "916ebafbc9103462",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "91cbd5359a81e30b",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "968ef44452396c60",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "9690939091f4faf1",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "98100682fde2f164",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "9ee903081671abac",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "a1149d6680d0c9b8",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "a2ceae700f36d562",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "a515ce6dd79c9771",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "a76ff13fa2164a82",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "a892701b4d5ee1cc",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "ab3c69e99baa468a",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "adf7880656dfc079",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "b19528a949cafd98",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "b639e215d3be285d",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "b93ca9f0793a1907",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "c098e3186ca87e99",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "c52246583b558b82",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "c5da3bcf435f6cfd",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "c65e91bca7113444",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "c79e1d012c2f6789",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "ca1df733d94982b6",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "d02c404790d920a0",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "d41e6e3298864361",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "dbe4007fdd9e5148",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "dd72b6b2ebd7980f",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "de1faa21ce489024",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "df0bc9509671dd94",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "e30c04da9f5c1bed",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "e3c8c75c5c358c4b",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "e40cea9dec7abb73",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "e4743eab6c213c3f",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "e521e1b9060abe17",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "e5ce4b73c57fc2db",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "e70bc91682fca460",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "e78dadb8f6a68e72",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "ea32b336199c2c75",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "eef6108b4d6ab116",
+      "split": "test"
+    },
+    {
+      "origin": "validation",
+      "image_id": "efb9d34587260fe7",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "f420778f40947757",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "f7ccc03d88a42162",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "fe253fc1a5e82eb8",
+      "split": "val"
+    },
+    {
+      "origin": "validation",
+      "image_id": "fe2fcd5ce4b52f20",
+      "split": "train"
+    },
+    {
+      "origin": "validation",
+      "image_id": "fe74db66cfd0590b",
+      "split": "train"
+    }
+  ],
+  "annotation_sha256": {
+    "classes.csv": "1839e0e7e84130ae281f7f67413768601b031581c0c42e7fc17527b8e2a99aa9",
+    "test-boxes.csv": "fe22e579b9453875601576859d14ef3304058165de139c66b725e599202bd7b1",
+    "validation-boxes.csv": "d8bbd59410af14835d7733165a7bb8a3f0213981b22dd5077b0b9f7878991ff2"
+  }
+}

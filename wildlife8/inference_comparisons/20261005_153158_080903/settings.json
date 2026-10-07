@@ -1,0 +1,22 @@
+{
+  "weights": "D:\\\u6df1\u5ea6\u5b66\u4e60\\wildlife-yolov8\\wildlife8\\my_runs\\20261005_142631_524082\\train\\weights\\best.pt",
+  "weights_sha256": "6005fbec3d348596317bc3ceaeb9e504d1db3da7e886ebac3d7bfa170da61a96",
+  "settings": {
+    "data": "D:\\\u6df1\u5ea6\u5b66\u4e60\\wildlife-yolov8\\wildlife8\\dataset.yaml",
+    "split": "test",
+    "batch": 1,
+    "device": 0,
+    "workers": 0,
+    "conf": 0.001,
+    "iou": 0.7,
+    "half": false,
+    "augment": false,
+    "rect": true,
+    "plots": true
+  },
+  "sizes": [
+    416,
+    640
+  ],
+  "note": "Exploratory evaluation on a previously inspected test set; no retraining."
+}

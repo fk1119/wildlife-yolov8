@@ -1,0 +1,38 @@
+{
+  "全部测试图": {
+    "images": 360,
+    "ground_truth": 577,
+    "predictions": 636,
+    "tp": 509,
+    "fp": 127,
+    "fn": 68,
+    "images_with_unmatched": 105
+  },
+  "African Wildlife": {
+    "images": 211,
+    "ground_truth": 352,
+    "predictions": 399,
+    "tp": 332,
+    "fp": 67,
+    "fn": 20,
+    "images_with_unmatched": 48
+  },
+  "COCO val2017": {
+    "images": 80,
+    "ground_truth": 133,
+    "predictions": 140,
+    "tp": 101,
+    "fp": 39,
+    "fn": 32,
+    "images_with_unmatched": 37
+  },
+  "Open Images（自定义划分）": {
+    "images": 69,
+    "ground_truth": 92,
+    "predictions": 97,
+    "tp": 76,
+    "fp": 21,
+    "fn": 16,
+    "images_with_unmatched": 20
+  }
+}
