@@ -42,8 +42,6 @@ $py = '.\.venv\Scripts\python.exe'
 
 - [实验状态与证据索引](experiments.json)
 - [实验结果](docs/RESULTS.md)与[失败案例](docs/failures/03_真实失败分析.md)
-- [汇报PPT](presentation/五项实验汇报.pptx)与[实验报告](docs/五项实验报告.docx)
-- [讲稿](docs/TALK.md)与[Demo](docs/DEMO.md)
 - [数据附件](DATA_ASSET.md)、[来源](CODE_ORIGIN.md)
 - [运行检查](docs/VALIDATION_CURRENT.md)
 
