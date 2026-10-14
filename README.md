@@ -65,7 +65,7 @@ $py = '你的python环境'
 ## 文档导航
 
 - [脚本用途与可选旧工具](docs/SCRIPTS.md)
-- [六分钟讲稿](presentation/TALK.md)、[PPT](presentation/五项实验汇报.pptx)、[Word报告](docs/五项实验报告.docx)
+- [Word报告](docs/五项实验报告.docx)
 - [成员贡献](CONTRIBUTIONS.md)
 - [来源与贡献边界](CODE_ORIGIN.md)
 
