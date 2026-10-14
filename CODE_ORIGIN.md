@@ -10,4 +10,4 @@
 - 2023，[Does training with blurred images bring convolutional neural networks closer to humans with respect to robust object recognition and internal representations?](https://pmc.ncbi.nlm.nih.gov/articles/PMC9975555/)。分类任务的清晰/模糊混合训练与本项目固定选图目标检测设置不同。
 - CVPR 2021，[Improved Handling of Motion Blur in Online Object Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Sayed_Improved_Handling_of_Motion_Blur_in_Online_Object_Detection_CVPR_2021_paper.pdf)。其运动模糊不同于本项目高斯模糊。
 
-这些研究支持问题背景，不证明本项目的25%或50%必然最优。成员贡献见CONTRIBUTIONS.md。
+这些研究支持问题背景，不证明本项目的25%或50%必然最优。成员贡献表待成员填写，见[贡献说明](CONTRIBUTIONS.md)。

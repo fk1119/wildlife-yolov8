@@ -1,13 +1,13 @@
 [
   {
     "path": ".gitignore",
-    "size": 2878,
-    "sha256": "cba72567636cd46249fcbc759b8407f33e4805987e5daa066fbdd90688b7011a"
+    "size": 3084,
+    "sha256": "ea82a4bb9a621deddaeadbd60110c7843737c9e64b7dc185b664a942e18f4b99"
   },
   {
     "path": "CODE_ORIGIN.md",
-    "size": 1886,
-    "sha256": "02dba3667b0c78bba450c2ecf7cfff56a655cf1b270bcdd420aae5553f0e2615"
+    "size": 1923,
+    "sha256": "ea2a0731fe36f32310c0159491486cb63cdbdf9041224d0e29cd4c87dcb19d41"
   },
   {
     "path": "config.json",
@@ -15,9 +15,14 @@
     "sha256": "17de316e7c1d1173751252ce289dd580ac665ac59154f6c3682959e9134ac0c5"
   },
   {
+    "path": "CONTRIBUTIONS.md",
+    "size": 355,
+    "sha256": "815d9ed2ac331c24c02b270ae688dd1515edda7b27210f21b7e6aa168dcf1c69"
+  },
+  {
     "path": "DATA_ASSET.md",
-    "size": 1165,
-    "sha256": "38b7b7caf43b43e22c4453cf85ab5ca15feb79fdae44c1b2275d255a065a5a77"
+    "size": 1672,
+    "sha256": "31b26bc8f802d7127c5073510ecd288f04bf3db5342d9190d0975d75b766228f"
   },
   {
     "path": "environment-lock.txt",
@@ -36,8 +41,8 @@
   },
   {
     "path": "README.md",
-    "size": 4249,
-    "sha256": "a1daa22ffcc6692561cabbaa28505d1979f65339a42ac2643e29b044304b23d7"
+    "size": 5137,
+    "sha256": "938da48b9583d6e86f8eccde2f51c25c05617d7635c9c36861f93c38285217ce"
   },
   {
     "path": "requirements-course.txt",
@@ -66,23 +71,23 @@
   },
   {
     "path": "docs/DEMO.md",
-    "size": 1018,
-    "sha256": "91fe46175d53f2bdce76847f57bae8eb653ca8ea788b1e0fc2b6beadba8490be"
+    "size": 1818,
+    "sha256": "0de0ff71cd40d6ab5faf8a9aee3b1ccd5fa30c06118cba1b57170a011b367a43"
   },
   {
     "path": "docs/EXPERIMENTS.md",
-    "size": 1728,
-    "sha256": "710d5111cf0710c4d104ae6e5f0ddb6256b83c5623eae581940f4891441bde2a"
+    "size": 2121,
+    "sha256": "001b58cfc4cbc495c60bc8645cab75267aed950c6b3850720db4dd9f1ae54869"
   },
   {
     "path": "docs/EXPERIMENT_NAMES.md",
-    "size": 1590,
-    "sha256": "ffb478613cbb6c5ddfa0452945f2d72876a06b3203307dcfa074f94682a45e9f"
+    "size": 2500,
+    "sha256": "baa944a8d15702d2adbef32ccf3422c39f337e44216918b51323bbe0575c4e45"
   },
   {
     "path": "docs/REPRODUCE.md",
-    "size": 2780,
-    "sha256": "7b5e02b4189cf97e064a9360e6634ef43b66ce8971a8ab06d043cd50f25c6dbe"
+    "size": 2990,
+    "sha256": "07f9bed94a3305b1fb4e579ba86554c28bcd1c3e0b74e77407d31a0e4d7b81cb"
   },
   {
     "path": "docs/RESULTS.csv",
@@ -96,48 +101,58 @@
   },
   {
     "path": "docs/RESULT_PROVENANCE.md",
-    "size": 1890,
-    "sha256": "633f4e73ade289c8e825e01037ff6603b12a8088a4d5e06b09caaa2f21b1a7fa"
+    "size": 1947,
+    "sha256": "a4a703e0d238136adb4d1b9800a99e9c6a5bf175ff6416ec5a5ec0102bbd9428"
+  },
+  {
+    "path": "docs/SCRIPTS.md",
+    "size": 3289,
+    "sha256": "cc12ebfaab77706c081866136768f18c9af04ca5c05684d061b1f0c13a8609f7"
   },
   {
     "path": "docs/TEACHER_REQUIREMENTS.md",
-    "size": 646,
-    "sha256": "9a447d20cb4a3283ee355eaae3d2836dc662bc82ab50ffe68c87c199d8b99fbd"
+    "size": 1216,
+    "sha256": "d1215f1bee79d16efc7c429f4751bd585d7457cdd184fa9ccf68fced4595fda3"
   },
   {
     "path": "docs/VALIDATION.md",
-    "size": 183,
-    "sha256": "cf805c3c63a798fed58e494b41145174c938c10401990640107a45b3148ae830"
+    "size": 137,
+    "sha256": "67cd01e9e92607797731bdffe57bff57815f45b861c8a25ac1d5fd5355cf73ec"
   },
   {
     "path": "docs/VALIDATION_CURRENT.md",
-    "size": 965,
-    "sha256": "e4e30ee0404495c1aa9048eb3ca29ce98198297116711c41e09180ec93619b58"
+    "size": 861,
+    "sha256": "4798e49087dab654504d1b1475f10486e32680a7bfc890624171ea41fde6d9e2"
   },
   {
     "path": "docs/五项实验报告.docx",
-    "size": 300923,
-    "sha256": "21435e982bd0a46118a1a6d3254256ce913e05f8c5ed633fd35b3d6a4ddd2347"
+    "size": 301020,
+    "sha256": "df15369c6ace478c858bd7fc7a59fa3131d31f43c17042206506a8c9704c4fc1"
   },
   {
     "path": "docs/实验四五随机状态审计.md",
-    "size": 4444,
-    "sha256": "06f38ca447dc8e138ef8b0fc578e1ae7bce1d87ee93051ef91ab6f05882d44ba"
+    "size": 4516,
+    "sha256": "446a2d34edee6753b6eb7bae78cecc389edae243c14fa7cba5fbb863ac103a3e"
   },
   {
     "path": "docs/小组成员独立运行.md",
-    "size": 769,
-    "sha256": "280ecbcf11950d3f7628d236d6fc7d0e403c1f3cf481d7943ed2ebbbe0f1e6f4"
+    "size": 823,
+    "sha256": "baff19436cb9e06b959e854151cf51de7a195a8cd639d1e7bce0c94b3769fca7"
   },
   {
     "path": "docs/统一配置与运行.md",
-    "size": 4300,
-    "sha256": "f7f150b33781e4bb91c8585c9d4b5b3c15c6dadf10729492f6cd681878c9ec05"
+    "size": 4832,
+    "sha256": "d3a8af797c5a5263449a74639ac4cf65dbcf89b6502b336069a7eaae9520a85a"
   },
   {
     "path": "docs/随机状态审计证据.json",
     "size": 12103,
     "sha256": "3478da56c6c422527787ceeb83c8973576022eec73a6121b61a857f987c06327"
+  },
+  {
+    "path": "presentation/TALK.md",
+    "size": 7121,
+    "sha256": "d18b2d6cd56a1945bbf1921971df16d9dcb354539fb03ea8941ec9b0997e5417"
   },
   {
     "path": "presentation/五项实验汇报.pptx",
@@ -241,8 +256,8 @@
   },
   {
     "path": "scripts/summarize_experiment4_robustness.py",
-    "size": 14112,
-    "sha256": "055b929a80ae4f1fc409d4376625e8c612acea7dea94066324ad12e60349ab6b"
+    "size": 13887,
+    "sha256": "e30f2845a2c0e909e7b49b3f097f62519f78819411d2e7a63723314654e0b48e"
   },
   {
     "path": "scripts/summarize_generalization.py",
@@ -361,8 +376,8 @@
   },
   {
     "path": "wildlife8/controls/EXPERIMENT_DESIGN.md",
-    "size": 2371,
-    "sha256": "2c500f3e0b1609a0e0e2bff64e4591f91c93bc5eebb2186495f97473182a0c4b"
+    "size": 2473,
+    "sha256": "a04b5b92b5ee69b48cc8426212fa254d9fd2c5e0ae856c03de1ef612b21f60ee"
   },
   {
     "path": "wildlife8/controls/failure_summary.json",
@@ -627,7 +642,7 @@
   {
     "path": "wildlife8/experiment4_robustness/实验报告.md",
     "size": 7391,
-    "sha256": "36ddd8ba4ff313ed50258b2289173bb399cf8ba7e71e977b1c4f649451746c86"
+    "sha256": "9f38dce72a48b96532d18d74ead4f586908f7b7f97a8dcb30e422282901a2555"
   },
   {
     "path": "wildlife8/controls/no_mosaic416/record.json",
@@ -1016,8 +1031,8 @@
   },
   {
     "path": "wildlife8/experiment1_inference_sizes/20261006_103015_680443/实验对照.md",
-    "size": 757,
-    "sha256": "72c9164c8aa9e824e1831303372edfa63bb6b2621caac9320ff9baef2224fda8"
+    "size": 832,
+    "sha256": "7e602f8ddfbfa0b6ea9c7e264afd332a20541c5663a024ccb60904896034c8c6"
   },
   {
     "path": "wildlife8/experiment1_inference_sizes/20261006_162734_758962/comparison.csv",

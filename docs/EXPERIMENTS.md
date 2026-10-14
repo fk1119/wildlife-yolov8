@@ -1,15 +1,17 @@
 # 五项实验设计
 
+先按复现步骤设置 `$py`。
+
 环境与资源配置见[复现步骤](REPRODUCE.md)。所有实验均已完成，以下命令用于新建运行。
 
 ## 1 推理尺寸对照
 
-固定416训练模型，以416和640分别评估完整测试集。
+当前入口先从COCO权重微调一个416模型，再固定其best.pt，以416和640分别评估完整测试集。
 
 结果目录：`wildlife8/experiment1_inference_sizes/20261006_162734_758962`。
 
 ```powershell
-& $py run.py inference_sizes
+& $py -X utf8 run.py experiment1_inference_sizes
 ```
 
 ## 2 训练尺寸对照
@@ -19,7 +21,7 @@
 结果目录：`wildlife8/experiment2_training_sizes/20261006_165841_934483`。
 
 ```powershell
-& $py run.py training_sizes
+& $py -X utf8 run.py experiment2_training_sizes
 ```
 
 ## 3 Mosaic增强对照
@@ -29,7 +31,7 @@
 结果目录：`wildlife8/experiment3_mosaic/20261006_180013_955548`。
 
 ```powershell
-& $py run.py mosaic
+& $py -X utf8 run.py experiment3_mosaic
 ```
 
 ## 4 鲁棒性与模糊增强
@@ -39,7 +41,7 @@
 结果目录：`wildlife8/experiment4_robustness`。
 
 ```powershell
-& $py run.py robustness
+& $py -X utf8 run.py experiment4_robustness
 ```
 
 ## 5 模糊比例对照
@@ -49,7 +51,5 @@
 结果目录：`wildlife8/experiment5_blur_ratios/20261007_104229_335871`。
 
 ```powershell
-& $py run.py blur_ratios
+& $py -X utf8 run.py experiment5_blur_ratios
 ```
-
-训练集用于更新参数，原清晰验证集用于选择best.pt。正式指标采用完整测试集；实验五比例选择不使用测试结果。

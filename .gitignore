@@ -63,3 +63,8 @@ wildlife8/experiment3_mosaic/*/
 !/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/weights/best.pt
 !/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur50_seed42/weights/best.pt
 !/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/weights/best.pt
+
+# Generated experiment-four datasets and future timestamped runs.
+wildlife8/experiment4_robustness/augmented_data/
+wildlife8/experiment4_robustness/eval_data/
+wildlife8/experiment4_robustness/[0-9]*/

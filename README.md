@@ -1,10 +1,50 @@
 # YOLOv8n 八类野生动物检测
 
-基于Ultralytics YOLOv8n与COCO预训练权重，检测水牛、大象、犀牛、斑马、熊、长颈鹿、狮子和鹿，输出类别、边界框和置信度。项目比较输入尺寸、Mosaic和模糊增强对检测性能的影响。
+输入动物图片，输出水牛、大象、犀牛、斑马、熊、长颈鹿、狮子和鹿的类别、检测框与置信度。基于COCO预训练的YOLOv8n微调，比较尺寸、Mosaic及模糊增强。Demo支持图片检测。
+
+## 本地运行
+
+在PowerShell中设置项目目录和Python解释器：
+
+```powershell
+Set-Location -LiteralPath '你的项目路径'
+$py = '你的python环境'
+```
+
+```powershell
+# 已有模型预测演示图片，不训练
+& $py -X utf8 scripts/demo_wildlife8.py
+
+# 仅检查实验三环境，不启动训练
+& $py -X utf8 run.py experiment3_mosaic --check-only
+```
+
+演示默认使用 `wildlife8/runs/train/weights/best.pt` 和 `wildlife8/demo_images`，在 `wildlife8/runs/demo*` 保存带框图片及 `counts.csv`。实际位置以终端输出为准。自定义图片、模型选择和演示步骤见[图片Demo](docs/DEMO.md)。仅预测图片不需要完整训练数据。
+
+## 重新训练五项实验
+
+五项实验均包含训练步骤，按下表逐项运行。添加 `--check-only` 可检查环境和输入。
+
+| 实验 | scripts中的主脚本 | 新训练模型数 | 命令 |
+|---|---|---:|---|
+| 1 推理尺寸对照 | `experiment1_inference_sizes.py` | `1` | `& $py -X utf8 run.py experiment1_inference_sizes` |
+| 2 训练尺寸对照 | `experiment2_training_sizes.py` | `2` | `& $py -X utf8 run.py experiment2_training_sizes` |
+| 3 Mosaic增强对照 | `experiment3_mosaic.py` | `2` | `& $py -X utf8 run.py experiment3_mosaic` |
+| 4 鲁棒性与模糊增强 | `experiment4_robustness.py` | `3` | `& $py -X utf8 run.py experiment4_robustness` |
+| 5 模糊比例对照 | `experiment5_blur_ratios.py` | `6` | `& $py -X utf8 run.py experiment5_blur_ratios` |
+
+实验四复用已有seed42基线，另训练三个模型。所有模型均从COCO预训练权重开始微调。新结果进入 `wildlife8/对应实验名/时间戳/`。
+
+[五项实验设计](docs/EXPERIMENTS.md) · [脚本与正式结果位置](docs/EXPERIMENT_NAMES.md) · [配置和恢复](docs/统一配置与运行.md)
+
+## 新电脑或重新下载项目
+
+需要Python 3.12、兼容的NVIDIA GPU与驱动。参考环境是PyTorch 2.5.1+cu121、Ultralytics 8.4.147、RTX 3060 Laptop。当前训练要求CUDA，Demo固定GPU 0。
+
+新电脑的环境安装步骤见[安装与复现](docs/REPRODUCE.md)，解释器路径以实际安装位置为准。已有模型可直接用于图片Demo；训练或完整测试集评估需要完整数据，获取方式和旧附件路径兼容见[数据附件](DATA_ASSET.md)。
 
 ## 实验结果
-
-五项实验均已完成。实验五采用2026年10月7日修复后完成的运行 `20261007_104229_335871`，包含0%、25%、50%三个比例、两个种子，共六个30轮模型。
+五项实验均已完成。实验五包含0%、25%、50%三个比例、两个种子，共六个30轮模型。
 
 | 实验 | 对照 | mAP50–95 | 变化（百分点） |
 |---|---|---|---|
@@ -16,55 +56,18 @@
 
 实验四、五表内为模糊测试条件；完整结果见[结果汇总](docs/RESULTS.md)。差值由未舍入数据计算。前3项为单种子，后2项为种子42、43的均值。
 
-## 数据与方法
+## 数据与结论边界
 
-固定划分为训练1753张、验证383张、测试360张，数据来自African Wildlife、COCO和Open Images。训练集更新模型参数，验证集选择权重及增强方案，测试集报告结果。主指标mAP50–95综合类别和定位表现。
+固定训练1753张、验证383张、测试360张，来源为African Wildlife、COCO和Open Images。验证集选择权重及预设方案，测试集报告结果。mAP50–95不是图片分类准确率。
 
-## 运行
+同一416模型改640推理后测试mAP下降；匹配640训练和测试的总体表现与416接近；Mosaic有类别差异；50%模糊增强提高模糊表现，但降低清晰和JPEG表现。实验五按验证规则选中50%；25%的测试表现用于分析性能取舍。
 
-参考环境：Windows、Python 3.12、PyTorch 2.5.1+cu121、Ultralytics 8.4.147、NVIDIA GPU（原实验为RTX 3060 Laptop）。训练与当前Demo默认使用GPU 0。先从仓库 **Releases** 下载本次数据权重附件，详情见 [附件说明](DATA_ASSET.md)。仅阅读结果不需要安装环境。
+## 文档导航
 
+- [脚本用途与可选旧工具](docs/SCRIPTS.md)
+- [六分钟讲稿](presentation/TALK.md)、[PPT](presentation/五项实验汇报.pptx)、[Word报告](docs/五项实验报告.docx)
+- [成员贡献](CONTRIBUTIONS.md)
+- [来源与贡献边界](CODE_ORIGIN.md)
 
-Windows PowerShell，在项目根目录执行：
+核心网络、训练器、损失和AP评估来自[Ultralytics](https://github.com/ultralytics/ultralytics)。代码来源与开发方式见[来源说明](CODE_ORIGIN.md)。上游许可见[许可证](UPSTREAM_LICENSE.txt)。
 
-```powershell
-python -m venv .venv
-$py = '.\.venv\Scripts\python.exe'
-& $py -m pip install -r requirements-course.txt
-& $py -X utf8 scripts/import_resources.py --archive '..\wildlife8-data-models.zip'
-& $py run.py mosaic --check-only
-& $py -X utf8 scripts/demo_wildlife8.py
-```
-
-各实验入口统一为 `python run.py <实验名>`，参数与路径在[config.json](config.json)配置。详细命令见[实验设计](docs/EXPERIMENTS.md)和[复现步骤](docs/REPRODUCE.md)。
-
-## 文档
-
-- [实验状态与证据索引](experiments.json)
-- [实验结果](docs/RESULTS.md)与[失败案例](docs/failures/03_真实失败分析.md)
-- [数据附件](DATA_ASSET.md)、[来源](CODE_ORIGIN.md)
-- [运行检查](docs/VALIDATION_CURRENT.md)
-
-## 结论与限制
-
-同一416模型直接改为640推理后，测试mAP下降；匹配训练和测试的640方案与416方案总体接近。Mosaic对不同类别的影响不一致。模糊增强提高模糊图表现，但50%组降低清晰和JPEG压缩图表现。实验五按预设验证规则选择50%比例。
-
-测试集此前已查看，人工退化不代表全部真实环境；有限种子、数据来源差异、潜在漏标和预训练重叠限制了结论范围。
-
-上游实现：[Ultralytics](https://github.com/ultralytics/ultralytics)。网络、训练器、损失及标准AP评估来自上游，许可证见[UPSTREAM_LICENSE.txt](UPSTREAM_LICENSE.txt)。
-
-## 直接用已有权重测试（不需要重新训练）
-
-本仓库现在包含参考模型和五项正式实验的best.pt，以及初始预训练权重。安装依赖后，直接运行下列命令即可测试自己的图片，无需先导入完整数据集：
-
-```powershell
-python -X utf8 scripts/demo_wildlife8.py --weights wildlife8/runs/train/weights/best.pt --source '你的图片或图片文件夹路径' --imgsz 416
-```
-
-该命令使用GPU 0，保存检测图和counts.csv，输出位置以终端提示为准。替换--weights可测试其他正式实验的best.pt；640训练模型应使用--imgsz 640。各模型目录见experiments.json。
-
-若要重算完整测试集的mAP，仍需按DATA_ASSET.md下载并导入原图与标注；这也不需要重新训练。run.py的实验命令用于重新开展实验，不是单纯加载已有模型做预测。
-
-## 五项实验对应入口
-
-脚本和结果已按实验一至五统一命名，见[五项实验名称与运行入口](docs/EXPERIMENT_NAMES.md)。

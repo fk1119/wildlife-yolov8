@@ -1,22 +1,24 @@
-# 四分钟演示
+# 图片检测与演示
 
-## 环境与输入
+`scripts/demo_wildlife8.py` 接受本地单张图片或图片文件夹。视频、摄像头和目标跟踪尚未实现。固定使用GPU 0，不读取config.json中的设备字段，也没有 `--device` 参数。
 
-资源导入后，在仓库根目录使用已安装的解释器：
+## 本机快速演示
 
 ```powershell
-$py = '.\.venv\Scripts\python.exe'
-$image = 'wildlife8/data/images/test/coco_val2017_000000286849.jpg'
-& $py -X utf8 scripts/demo_wildlife8.py --weights wildlife8/runs/train/weights/best.pt --source $image --imgsz 416 --conf 0.25 --iou 0.7
+Set-Location -LiteralPath '你的项目路径'
+$py = '你的python环境'
 ```
 
-演示使用附件中原416基线，输出位置以终端打印路径为准。该演示不训练模型，也不重新计算完整测试指标。
+```powershell
+& $py -X utf8 scripts/demo_wildlife8.py
+```
 
-| 时间 | 内容 |
-|---|---|
-| 0:00–0:30 | 展示原图、类别和模型权重 |
-| 0:30–2:00 | 执行推理，查看终端结果 |
-| 2:00–3:00 | 打开预测图片，说明类别、检测框和置信度 |
-| 3:00–4:00 | 对照失败案例与完整测试指标 |
+默认读取 `wildlife8/demo_images`，使用 `wildlife8/runs/train/weights/best.pt`。无需先导入完整数据集。输出是 `wildlife8/runs/demo*` 中的带框图和 `counts.csv`，以终端路径为准。CSV为每图预测框数量，不是去重个体数量。
 
-长颈鹿案例有4个标注框和4个预测框，但只有1个满足同类IoU≥0.5。预测数量相同不代表定位正确。离线预测与标注图位于[失败案例](failures/03_真实失败分析.md)。
+## 自己的图片和其他模型
+
+```powershell
+& $py -X utf8 scripts/demo_wildlife8.py --source '图片或图片文件夹路径' --weights wildlife8/runs/train/weights/best.pt --imgsz 416 --conf 0.25 --iou 0.7
+```
+
+支持jpg、jpeg、png、bmp，文件夹只扫描第一层。`--conf` 和 `--iou` 必须在0至1之间。640训练模型使用 `--imgsz 640`；其他模型位置见[实验入口](EXPERIMENT_NAMES.md)。本脚本不训练，也不输出测试集mAP。
