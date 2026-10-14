@@ -23,27 +23,27 @@ wildlife8/**/dataset.yaml
 # Future local runs: curate evidence deliberately after completion.
 wildlife8/experiment1_inference_sizes/*/
 wildlife8/experiment2_training_sizes/*/
-wildlife8/experiment3_blur_ratios/*/
-wildlife8/mosaic_experiments/
+wildlife8/experiment5_blur_ratios/*/
+wildlife8/experiment3_mosaic/
 wildlife8/robustness_rerun_*/
 wildlife8/my_runs/*/
 wildlife8/inference_comparisons/*/
 wildlife8/runs/demo*/
 !wildlife8/experiment1_inference_sizes/20261006_103015_680443/
-!wildlife8/experiment3_blur_ratios/20261006_102317_655876/
+!wildlife8/experiment5_blur_ratios/20261006_102317_655876/
 !wildlife8/my_runs/20261005_191629_756271/
 !wildlife8/my_runs/20261005_193212_441416/
 !wildlife8/my_runs/20261005_210006_263133/
 !wildlife8/inference_comparisons/20261005_153158_080903/
 
 # Completed experiment evidence
-!wildlife8/mosaic_experiments/
-wildlife8/mosaic_experiments/*/
+!wildlife8/experiment3_mosaic/
+wildlife8/experiment3_mosaic/*/
 !wildlife8/experiment1_inference_sizes/20261006_162734_758962/
 !wildlife8/experiment2_training_sizes/20261006_165841_934483/
-!wildlife8/mosaic_experiments/20261006_180013_955548/
-!wildlife8/robustness_rerun_20261006_210326_635336/
-!wildlife8/experiment3_blur_ratios/20261007_104229_335871/
+!wildlife8/experiment3_mosaic/20261006_180013_955548/
+!wildlife8/experiment4_robustness/
+!wildlife8/experiment5_blur_ratios/20261007_104229_335871/
 
 # Include saved models needed for direct inference and experiment testing.
 !/assets/yolov8n.pt
@@ -52,14 +52,14 @@ wildlife8/mosaic_experiments/*/
 !/wildlife8/experiment1_inference_sizes/20261006_162734_758962/train_416/weights/best.pt
 !/wildlife8/experiment2_training_sizes/20261006_165841_934483/train_416/weights/best.pt
 !/wildlife8/experiment2_training_sizes/20261006_165841_934483/train_640/weights/best.pt
-!/wildlife8/mosaic_experiments/20261006_180013_955548/off/train/weights/best.pt
-!/wildlife8/mosaic_experiments/20261006_180013_955548/on/train/weights/best.pt
-!/wildlife8/robustness_rerun_20261006_210326_635336/training/augmented42/train/weights/best.pt
-!/wildlife8/robustness_rerun_20261006_210326_635336/training/augmented43/train/weights/best.pt
-!/wildlife8/robustness_rerun_20261006_210326_635336/training/baseline43/train/weights/best.pt
-!/wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed42/weights/best.pt
-!/wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed43/weights/best.pt
-!/wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed42/weights/best.pt
-!/wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/weights/best.pt
-!/wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed42/weights/best.pt
-!/wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/weights/best.pt
+!/wildlife8/experiment3_mosaic/20261006_180013_955548/off/train/weights/best.pt
+!/wildlife8/experiment3_mosaic/20261006_180013_955548/on/train/weights/best.pt
+!/wildlife8/experiment4_robustness/training/augmented42/train/weights/best.pt
+!/wildlife8/experiment4_robustness/training/augmented43/train/weights/best.pt
+!/wildlife8/experiment4_robustness/training/baseline43/train/weights/best.pt
+!/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur0_seed42/weights/best.pt
+!/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur0_seed43/weights/best.pt
+!/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur25_seed42/weights/best.pt
+!/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/weights/best.pt
+!/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur50_seed42/weights/best.pt
+!/wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/weights/best.pt

@@ -43,6 +43,10 @@ def import_archive(archive, root=ROOT):
         for record in records:
             target = safe_target(root, record['path'])
             member = prefix + record['path']
+            if member not in name_set:
+                archive_path = record.get('archive_path', record['path'])
+                safe_target(root, archive_path)
+                member = prefix + archive_path
             if member not in name_set or names.count(member) != 1:
                 raise ValueError(f'Missing or duplicate ZIP entry: {member}')
             if z.getinfo(member).file_size != record['size']:

@@ -9,6 +9,6 @@
 
 - 推理尺寸对照：[原始记录](../wildlife8/experiment1_inference_sizes/20261006_162734_758962/实验对照.md)
 - 训练尺寸对照：[原始记录](../wildlife8/experiment2_training_sizes/20261006_165841_934483/实验对照.md)
-- Mosaic增强对照：[原始记录](../wildlife8/mosaic_experiments/20261006_180013_955548/comparison/实验分析.md)
-- 鲁棒性与模糊增强：[原始记录](../wildlife8/robustness_rerun_20261006_210326_635336/实验报告.md)
-- 模糊比例对照：[原始记录](../wildlife8/experiment3_blur_ratios/20261007_104229_335871/实验对照.md)
+- Mosaic增强对照：[原始记录](../wildlife8/experiment3_mosaic/20261006_180013_955548/comparison/实验分析.md)
+- 鲁棒性与模糊增强：[原始记录](../wildlife8/experiment4_robustness/实验报告.md)
+- 模糊比例对照：[原始记录](../wildlife8/experiment5_blur_ratios/20261007_104229_335871/实验对照.md)

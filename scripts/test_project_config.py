@@ -55,7 +55,8 @@ class ConfigTests(unittest.TestCase):
                         summary=lambda:[{'Class':'bear'}],speed={'inference':1.})
             with patch.object(sizes,'CONFIG',config), patch.object(sizes,'DEVICE',2), patch.object(sizes,'WORKERS',3), contextlib.redirect_stdout(io.StringIO()):
                 sizes.run_experiment('inference',root/'out',cfg,initial,
-                    SimpleNamespace(epochs=2,batch=4,seed=7),{},FakeModel,lambda:None)
+                    SimpleNamespace(epochs=2,batch=4,seed=7),{},FakeModel,lambda:None,
+                    lambda initial, job_dir, **kw: FakeModel(initial).train(**kw))
             self.assertEqual([kw['imgsz'] for _,kw in events],[320,320,512])
             self.assertTrue(all(kw['device']==2 and kw['workers']==3 for _,kw in events))
             self.assertEqual(events[0][1]['epochs'],2)

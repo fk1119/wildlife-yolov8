@@ -64,3 +64,7 @@ python -X utf8 scripts/demo_wildlife8.py --weights wildlife8/runs/train/weights/
 该命令使用GPU 0，保存检测图和counts.csv，输出位置以终端提示为准。替换--weights可测试其他正式实验的best.pt；640训练模型应使用--imgsz 640。各模型目录见experiments.json。
 
 若要重算完整测试集的mAP，仍需按DATA_ASSET.md下载并导入原图与标注；这也不需要重新训练。run.py的实验命令用于重新开展实验，不是单纯加载已有模型做预测。
+
+## 五项实验对应入口
+
+脚本和结果已按实验一至五统一命名，见[五项实验名称与运行入口](docs/EXPERIMENT_NAMES.md)。

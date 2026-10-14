@@ -7,7 +7,7 @@ import types
 import unittest
 from unittest.mock import patch
 import numpy as np
-import run_mosaic_experiment as runner
+import experiment3_mosaic as runner
 
 
 class RecoveryTests(unittest.TestCase):

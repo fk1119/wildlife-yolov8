@@ -25025,36 +25025,6 @@
     "sha256": "418e74081284e08df05fc38f65b977a56836e896b7286ca69a45835e0df3da53"
   },
   {
-    "path": "wildlife8/robustness/training/augmented42/train/weights/best.pt",
-    "size": 6230308,
-    "sha256": "42977ecca245fb213c319a5bf96fb4032b7e76dbd623635d85ae17e501e0acb5"
-  },
-  {
-    "path": "wildlife8/robustness/training/augmented42/train/weights/last.pt",
-    "size": 6230308,
-    "sha256": "579ceed8c9cb8445fc871fddd238f683fe8bf1e03d5edeb2229d4d5f094adfc6"
-  },
-  {
-    "path": "wildlife8/robustness/training/augmented43/train/weights/best.pt",
-    "size": 6230308,
-    "sha256": "99a4789634eaa124ac976ab84cccf1f8d3e1e0a6112f886a5ab6fca6faa80eae"
-  },
-  {
-    "path": "wildlife8/robustness/training/augmented43/train/weights/last.pt",
-    "size": 6230308,
-    "sha256": "99a4789634eaa124ac976ab84cccf1f8d3e1e0a6112f886a5ab6fca6faa80eae"
-  },
-  {
-    "path": "wildlife8/robustness/training/baseline43/train/weights/best.pt",
-    "size": 6230244,
-    "sha256": "f6063d81b27adf88b35b0040c70ff1e9fab7574fd2ce90c68ba74043b25f4e6a"
-  },
-  {
-    "path": "wildlife8/robustness/training/baseline43/train/weights/last.pt",
-    "size": 6230244,
-    "sha256": "f6063d81b27adf88b35b0040c70ff1e9fab7574fd2ce90c68ba74043b25f4e6a"
-  },
-  {
     "path": "wildlife8/runs/train/weights/best.pt",
     "size": 6230180,
     "sha256": "521e07d7b5ab8afdcae27235552f3dfd947e0f68259228f24226e6055d20397e"
@@ -25080,58 +25050,69 @@
     "sha256": "52b9fa46e8adb3d18aacc60f5385eda7d50f15f95f06e0ed234a9b0294c2f003"
   },
   {
-    "path": "wildlife8/mosaic_experiments/20261006_180013_955548/off/train/weights/best.pt",
+    "path": "wildlife8/experiment3_mosaic/20261006_180013_955548/off/train/weights/best.pt",
     "size": 6230244,
-    "sha256": "914010f00fffc465927631695165ce3fc67d4655de08ab592101439f54ac9d28"
+    "sha256": "914010f00fffc465927631695165ce3fc67d4655de08ab592101439f54ac9d28",
+    "archive_path": "wildlife8/mosaic_experiments/20261006_180013_955548/off/train/weights/best.pt"
   },
   {
-    "path": "wildlife8/mosaic_experiments/20261006_180013_955548/on/train/weights/best.pt",
+    "path": "wildlife8/experiment3_mosaic/20261006_180013_955548/on/train/weights/best.pt",
     "size": 6230244,
-    "sha256": "62a3e152a778e02b9abb2fae633b45baf4d15da0c4a520154ce188837889dbef"
+    "sha256": "62a3e152a778e02b9abb2fae633b45baf4d15da0c4a520154ce188837889dbef",
+    "archive_path": "wildlife8/mosaic_experiments/20261006_180013_955548/on/train/weights/best.pt"
   },
   {
-    "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/augmented42/train/weights/best.pt",
+    "path": "wildlife8/experiment4_robustness/training/augmented42/train/weights/best.pt",
     "size": 6230372,
-    "sha256": "e0f5cce21e22897c035f2a6225fd1f5f482ea613219dbdc3d5e37456ccfa01c2"
+    "sha256": "e0f5cce21e22897c035f2a6225fd1f5f482ea613219dbdc3d5e37456ccfa01c2",
+    "archive_path": "wildlife8/robustness_rerun_20261006_210326_635336/training/augmented42/train/weights/best.pt"
   },
   {
-    "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/augmented43/train/weights/best.pt",
+    "path": "wildlife8/experiment4_robustness/training/augmented43/train/weights/best.pt",
     "size": 6230372,
-    "sha256": "1f20febf8ba83c5465d581e61f144d7951411a84bbc6af2f4d2993f1f348d66f"
+    "sha256": "1f20febf8ba83c5465d581e61f144d7951411a84bbc6af2f4d2993f1f348d66f",
+    "archive_path": "wildlife8/robustness_rerun_20261006_210326_635336/training/augmented43/train/weights/best.pt"
   },
   {
-    "path": "wildlife8/robustness_rerun_20261006_210326_635336/training/baseline43/train/weights/best.pt",
+    "path": "wildlife8/experiment4_robustness/training/baseline43/train/weights/best.pt",
     "size": 6230308,
-    "sha256": "48f3a5b2851b00d0f1751d54a718af1657e1c23ae5d6c24b1484e57b4986e74e"
+    "sha256": "48f3a5b2851b00d0f1751d54a718af1657e1c23ae5d6c24b1484e57b4986e74e",
+    "archive_path": "wildlife8/robustness_rerun_20261006_210326_635336/training/baseline43/train/weights/best.pt"
   },
   {
-    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed42/weights/best.pt",
+    "path": "wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur0_seed42/weights/best.pt",
     "size": 6230372,
-    "sha256": "59525509de9b69cf01b1e930567d5f47448aa34e881fc82017de912d024fcc1f"
+    "sha256": "59525509de9b69cf01b1e930567d5f47448aa34e881fc82017de912d024fcc1f",
+    "archive_path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed42/weights/best.pt"
   },
   {
-    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed43/weights/best.pt",
+    "path": "wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur0_seed43/weights/best.pt",
     "size": 6230372,
-    "sha256": "e29027ef90e00df2bc57560ed3d8717629142b2dfffa4329ff1a6840fb574d45"
+    "sha256": "e29027ef90e00df2bc57560ed3d8717629142b2dfffa4329ff1a6840fb574d45",
+    "archive_path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur0_seed43/weights/best.pt"
   },
   {
-    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed42/weights/best.pt",
+    "path": "wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur25_seed42/weights/best.pt",
     "size": 6230436,
-    "sha256": "4f52ae2450c9a167b55193615a02037f95378f9eef787d867e6cc3fa5ae63d0c"
+    "sha256": "4f52ae2450c9a167b55193615a02037f95378f9eef787d867e6cc3fa5ae63d0c",
+    "archive_path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed42/weights/best.pt"
   },
   {
-    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/weights/best.pt",
+    "path": "wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/weights/best.pt",
     "size": 6230436,
-    "sha256": "c9ec57883a417b7146d9ff6fc3eb67bdb6e0111863e3de3f09c36f94c4efac4f"
+    "sha256": "c9ec57883a417b7146d9ff6fc3eb67bdb6e0111863e3de3f09c36f94c4efac4f",
+    "archive_path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur25_seed43/weights/best.pt"
   },
   {
-    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed42/weights/best.pt",
+    "path": "wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur50_seed42/weights/best.pt",
     "size": 6230436,
-    "sha256": "77347665c8a3f73f5a09421f91db94856191d424f1c49817ce3d5a284d3a707b"
+    "sha256": "77347665c8a3f73f5a09421f91db94856191d424f1c49817ce3d5a284d3a707b",
+    "archive_path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed42/weights/best.pt"
   },
   {
-    "path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/weights/best.pt",
+    "path": "wildlife8/experiment5_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/weights/best.pt",
     "size": 6230436,
-    "sha256": "b885b33dfd76625ea5d1483221b212419915fc63cdaee8ab420eb530d7ca21ea"
+    "sha256": "b885b33dfd76625ea5d1483221b212419915fc63cdaee8ab420eb530d7ca21ea",
+    "archive_path": "wildlife8/experiment3_blur_ratios/20261007_104229_335871/training/train_blur50_seed43/weights/best.pt"
   }
 ]

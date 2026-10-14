@@ -11,7 +11,7 @@ from unittest.mock import patch
 import cv2
 import numpy as np
 import yaml
-import experiment3_blur_ratios as experiment
+import experiment5_blur_ratios as experiment
 
 
 class BlurStudyTest(unittest.TestCase):

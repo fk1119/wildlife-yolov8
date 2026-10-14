@@ -1,12 +1,12 @@
-﻿# 结果来源与版本说明
+# 结果来源与版本说明
 
 整理日期：2026-10-07。正式讲稿、PPT、报告以这里列出的原始结果为准。
 
 - 实验1：`wildlife8/experiment1_inference_sizes/20261006_162734_758962`
 - 实验2：`wildlife8/experiment2_training_sizes/20261006_165841_934483`
-- 实验3：`wildlife8/mosaic_experiments/20261006_180013_955548`
-- 实验4：`wildlife8/robustness_rerun_20261006_210326_635336`
-- 实验5：`wildlife8/experiment3_blur_ratios/20261007_104229_335871`
+- 实验3：`wildlife8/experiment3_mosaic/20261006_180013_955548`
+- 实验4：`wildlife8/experiment4_robustness`
+- 实验5：`wildlife8/experiment5_blur_ratios/20261007_104229_335871`
 
 实验五采用20261007_104229_335871，状态complete，六个训练各30轮；不使用20261006_230017_487511的旧配对结论。新协议记录每个比例/种子在独立解释器训练。0%和50%清晰/模糊均值与实验四一致；它们不是新的独立重复证据，不能当成四个随机种子。
 

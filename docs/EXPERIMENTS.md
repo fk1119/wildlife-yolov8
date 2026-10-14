@@ -26,7 +26,7 @@
 
 保持416、30轮、batch 8、seed 42，比较Mosaic开启和关闭。
 
-结果目录：`wildlife8/mosaic_experiments/20261006_180013_955548`。
+结果目录：`wildlife8/experiment3_mosaic/20261006_180013_955548`。
 
 ```powershell
 & $py run.py mosaic
@@ -36,7 +36,7 @@
 
 验证集选择模糊作为目标退化，训练集一半图像施加固定高斯模糊；比较两个种子下清晰及九种退化测试条件。seed42基线为已有模型，另训练三个模型。
 
-结果目录：`wildlife8/robustness_rerun_20261006_210326_635336`。
+结果目录：`wildlife8/experiment4_robustness`。
 
 ```powershell
 & $py run.py robustness
@@ -46,7 +46,7 @@
 
 比较0%、25%、50%固定模糊比例，每组种子42和43，各30轮。25%子集包含在50%子集内，共享样本模糊强度一致。所有模型采用独立解释器训练。验证集按清晰和模糊等权规则选中50%。
 
-结果目录：`wildlife8/experiment3_blur_ratios/20261007_104229_335871`。
+结果目录：`wildlife8/experiment5_blur_ratios/20261007_104229_335871`。
 
 ```powershell
 & $py run.py blur_ratios

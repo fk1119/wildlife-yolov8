@@ -36,6 +36,18 @@ class ResourceImportTests(unittest.TestCase):
         cfg=json.loads((self.root/'wildlife8/dataset.yaml').read_text(encoding='utf-8'))
         self.assertEqual(Path(cfg['path']),self.root/'wildlife8/data')
 
+    def test_renamed_target_from_legacy_archive(self):
+        self.make_zip()
+        path = self.root/'resources_manifest.json'
+        records = json.loads(path.read_text(encoding='utf-8'))
+        records[1]['archive_path'] = records[1]['path']
+        records[1]['path'] = 'wildlife8/experiment5_blur_ratios/fixture.txt'
+        path.write_text(json.dumps(records), encoding='utf-8')
+        import_archive(self.archive, self.root)
+        self.assertEqual((self.root/records[1]['path']).read_bytes(),
+                         self.payloads[records[1]['archive_path']])
+        self.assertFalse((self.root/records[1]['archive_path']).exists())
+
     def test_full_backup_top_folder(self):
         self.make_zip(prefix='full_backup/')
         import_archive(self.archive,self.root)

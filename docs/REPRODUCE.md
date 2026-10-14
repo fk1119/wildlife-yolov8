@@ -23,8 +23,8 @@ $py = '.\.venv\Scripts\python.exe'
 & $py -X utf8 scripts/check_wildlife8.py --data-only
 & $py -X utf8 scripts/experiment1_inference_sizes.py --check-only
 & $py -X utf8 scripts/experiment2_training_sizes.py --check-only
-& $py -X utf8 scripts/run_mosaic_experiment.py --check-only
-& $py -X utf8 scripts/experiment3_blur_ratios.py --check-only
+& $py -X utf8 scripts/experiment3_mosaic.py --check-only
+& $py -X utf8 scripts/experiment5_blur_ratios.py --check-only
 ```
 
 导入器按resources_manifest.json逐文件SHA256验证，仅导入清单内文件；已有且相同的文件跳过，已有但不同的文件拒绝覆盖。它不解压任意路径、不修改历史指标或原数据来源清单。导入完成会生成本目录的dataset.yaml。移动整个项目后执行 `scripts/configure_package_paths.py` 更新路径。
